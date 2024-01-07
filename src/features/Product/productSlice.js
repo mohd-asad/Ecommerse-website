@@ -77,14 +77,14 @@ export const productSlice = createSlice({
       })
       .addCase(fetchCategoriesAsync.fulfilled, (state, action) => {
         state.status = "idle";
-        state.brands = action.payload;
+        state.categories = action.payload;
       })
       .addCase(fetchBrandsAsync.pending, (state) => {
         state.status = "loading";
       })
       .addCase(fetchBrandsAsync.fulfilled, (state, action) => {
         state.status = "idle";
-        state.categories = action.payload;
+        state.brands = action.payload;
       });
   },
 });
