@@ -10,7 +10,7 @@ export function fetchAllProducts() {
 export function fetchProductById(id) {
   return new Promise(async (resolve) => {
     //todo
-    const response = await fetch("http://localhost:8080/products" + id);
+    const response = await fetch("http://localhost:8080/products/" + id);
     const data = await response.json();
     resolve({ data });
   });
