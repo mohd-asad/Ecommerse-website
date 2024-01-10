@@ -40,7 +40,4 @@ export const authSlice = createSlice({
 
 export const { increment } = authSlice.actions;
 
-
-export const selectCount = (state) => state.counter.value;
-
 export default authSlice.reducer;
