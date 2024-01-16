@@ -2,7 +2,7 @@ import { useSelector } from "react-redux/es/hooks/useSelector";
 import { selectLoggedInUser } from "../authSlice";
 import { Navigate } from "react-router-dom";
 
-function Protected(children){
+function Protected({children}){
     
     const user=useSelector(selectLoggedInUser);
     if(!user)

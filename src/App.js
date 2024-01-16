@@ -1,4 +1,3 @@
-import { Counter } from "./features/counter/Counter";
 import React from "react";
 import "./App.css";
 import Home from "./pages/home";
@@ -18,7 +17,7 @@ import Protected from "./features/auth/components/Protected";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Protected><Home></Home></Protected>,
+    element:(<Protected><Home></Home></Protected>),
   },
   {
     path: "/Login",
@@ -30,16 +29,27 @@ const router = createBrowserRouter([
   },
   {
     path: "/cart",
-    element: <Protected><CartPage></CartPage></Protected>,
+    element: (
+      <Protected>
+        <CartPage></CartPage>
+      </Protected>
+    ),
   },
   {
     path: "/checkout",
-    element: <Protected><Checkout></Checkout></Protected>,
+    element: (
+      <Protected>
+        <Checkout></Checkout>
+      </Protected>
+    ),
   },
   {
-    path: "/product-detail",
     path: "/product-detail/:id",
-    element: <Checkout><ProductDetailPage></ProductDetailPage></Checkout>,
+    element: (
+      <Protected>
+        <ProductDetailPage></ProductDetailPage>
+      </Protected>
+    ),
   },
 ]);
 
