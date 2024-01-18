@@ -30,7 +30,7 @@ function classNames(...classes) {
 }
 
 function Navbar({ children }) {
-  const items=useSelector(selectItems);
+  const items = useSelector(selectItems);
   return (
     <>
       <div className="min-h-full">

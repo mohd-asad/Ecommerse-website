@@ -2366,7 +2366,72 @@
         "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
       ],
       "quentity": 1,
-      "user": 1
+      "user": 1,
+      "quantity": 1
+    },
+    {
+      "id": 30,
+      "title": "Key Holder",
+      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "price": 30,
+      "discountPercentage": 2.92,
+      "rating": 4.92,
+      "stock": 54,
+      "brand": "Golden",
+      "category": "home-decoration",
+      "thumbnail": "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/30/1.jpg",
+        "https://i.dummyjson.com/data/products/30/2.jpg",
+        "https://i.dummyjson.com/data/products/30/3.jpg",
+        "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
+      ],
+      "quentity": 1,
+      "user": 1,
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/9/1.jpg",
+        "https://i.dummyjson.com/data/products/9/2.png",
+        "https://i.dummyjson.com/data/products/9/3.png",
+        "https://i.dummyjson.com/data/products/9/4.jpg",
+        "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+      ],
+      "quentity": 1,
+      "user": 1,
+      "quantity": 1
+    },
+    {
+      "id": 60,
+      "title": "Stylish Casual Jeans Shoes",
+      "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
+      "price": 58,
+      "discountPercentage": 7.55,
+      "rating": 4.55,
+      "stock": 129,
+      "brand": "Sneakers",
+      "category": "mens-shoes",
+      "thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/60/1.jpg",
+        "https://i.dummyjson.com/data/products/60/2.jpg",
+        "https://i.dummyjson.com/data/products/60/3.jpg",
+        "https://i.dummyjson.com/data/products/60/thumbnail.jpg"
+      ],
+      "quentity": 1,
+      "user": 1,
+      "quantity": 1
     },
     {
       "id": 2,
@@ -2385,27 +2450,7 @@
         "https://i.dummyjson.com/data/products/2/3.jpg",
         "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
       ],
-      "quentity": 1,
-      "user": 1
-    },
-    {
-      "id": 7,
-      "title": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-      "price": 1499,
-      "discountPercentage": 4.15,
-      "rating": 4.25,
-      "stock": 50,
-      "brand": "Samsung",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/7/1.jpg",
-        "https://i.dummyjson.com/data/products/7/2.jpg",
-        "https://i.dummyjson.com/data/products/7/3.jpg",
-        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
-      ],
-      "quentity": 1,
+      "quantity": 1,
       "user": 1
     }
   ]
