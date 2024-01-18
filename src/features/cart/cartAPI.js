@@ -11,3 +11,12 @@ export function addToCart(item) {
   }
   );
 }
+
+export function fetchProductByUserId(userId) {
+  return new Promise(async (resolve) => {
+    //todo
+    const response = await fetch("http://localhost:8080/cart?user=" + userId);
+    const data = await response.json();
+    resolve({ data });
+  });
+}

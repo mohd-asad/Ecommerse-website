@@ -6,6 +6,8 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { selectItems } from "../cart/cartSlice";
 
 const user = {
   name: "Tom Cook",
@@ -28,6 +30,7 @@ function classNames(...classes) {
 }
 
 function Navbar({ children }) {
+  const items=useSelector(selectItems);
   return (
     <>
       <div className="min-h-full">
@@ -84,7 +87,7 @@ function Navbar({ children }) {
                       </Link>
 
                       <span className="inline-flex items-center rounded-md mb-7 -ml-3 z-10 bg-gray-50   px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                        3
+                        {items.length}
                       </span>
 
                       {/* Profile dropdown */}
@@ -195,7 +198,7 @@ function Navbar({ children }) {
                         <span className="absolute -inset-1.5" />
                         <span className="sr-only">View notifications</span>
                         <span className="inline-flex items-center rounded-md bg-gray-50 ml-2 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                          5
+                          {items.length}
                         </span>
                         <ShoppingCartIcon
                           className="h-6 w-6"

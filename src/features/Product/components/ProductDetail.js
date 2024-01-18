@@ -287,7 +287,8 @@ export default function ProductDetail() {
                 </div>
 
                 <button
-                  onClick={handleCart((e)=>{
+                  onClick={((e)=>{
+                    e.preventDefault();
                     dispatch(addToCartAsync({...product,quentity:1,user:user.id}))
                   })}
                   type="submit"
