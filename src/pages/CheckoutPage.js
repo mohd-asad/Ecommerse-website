@@ -7,6 +7,7 @@ import {
   updateCartAsync,
 } from "../features/cart/cartSlice";
 import { Navigate } from "react-router-dom";
+import { useForm } from "react-hook-form";
 
 const addresses = [
   {
@@ -30,6 +31,14 @@ function Checkout() {
   const dispatch = useDispatch();
   const items = useSelector(selectItems);
   const [open, setOpen] = useState(true);
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  console.log(errors);
+
   const totalAmount = items.reduce(
     (amount, item) => item.price * item.quantity + amount,
     0
@@ -63,35 +72,19 @@ function Checkout() {
                   <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="sm:col-span-3">
                       <label
-                        htmlFor="first-name"
+                        htmlFor="name"
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
-                        First name
+                        Name
                       </label>
                       <div className="mt-2">
                         <input
                           type="text"
-                          name="first-name"
-                          id="first-name"
+                          {...register("name", {
+                            required: "name is required",
+                          })}
+                          id="name"
                           autoComplete="given-name"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="sm:col-span-3">
-                      <label
-                        htmlFor="last-name"
-                        className="block text-sm font-medium leading-6 text-gray-900"
-                      >
-                        Last name
-                      </label>
-                      <div className="mt-2">
-                        <input
-                          type="text"
-                          name="last-name"
-                          id="last-name"
-                          autoComplete="family-name"
                           className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
@@ -107,7 +100,9 @@ function Checkout() {
                       <div className="mt-2">
                         <input
                           id="email"
-                          name="email"
+                          {...register("email", {
+                            required: "email is required",
+                          })}
                           type="email"
                           autoComplete="email"
                           className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -125,10 +120,13 @@ function Checkout() {
                       <div className="mt-2">
                         <select
                           id="country"
-                          name="country"
+                          {...register("country", {
+                            required: "country is required",
+                          })}
                           autoComplete="country-name"
                           className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                         >
+                          <option>Country</option>
                           <option>United States</option>
                           <option>Canada</option>
                           <option>Mexico</option>
@@ -146,7 +144,9 @@ function Checkout() {
                       <div className="mt-2">
                         <input
                           type="text"
-                          name="street-address"
+                          {...register("street-address", {
+                            required: "street-address is required",
+                          })}
                           id="street-address"
                           autoComplete="street-address"
                           className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -164,7 +164,9 @@ function Checkout() {
                       <div className="mt-2">
                         <input
                           type="text"
-                          name="city"
+                          {...register("city", {
+                            required: "city is required",
+                          })}
                           id="city"
                           autoComplete="address-level2"
                           className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -182,7 +184,9 @@ function Checkout() {
                       <div className="mt-2">
                         <input
                           type="text"
-                          name="region"
+                          {...register("region", {
+                            required: "region is required",
+                          })}
                           id="region"
                           autoComplete="address-level1"
                           className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -200,7 +204,9 @@ function Checkout() {
                       <div className="mt-2">
                         <input
                           type="text"
-                          name="postal-code"
+                          {...register("pinCode", {
+                            required: "pinCode is required",
+                          })}
                           id="postal-code"
                           autoComplete="postal-code"
                           className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"

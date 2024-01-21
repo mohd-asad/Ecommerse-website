@@ -4,7 +4,6 @@ import { RadioGroup } from "@headlessui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAllProductByIdAsync, selectProductById } from "../productSlice";
 import { useParams } from "react-router-dom";
-import { addToCart } from "../../cart/cartAPI";
 import { addToCartAsync } from "../../cart/cartSlice";
 import { selectLoggedInUser } from "../../auth/authSlice";
 
@@ -23,7 +22,7 @@ const sizes = [
   { name: "2XL", inStock: true },
   { name: "3XL", inStock: true },
 ];
-const highlights = [
+const highlights = [  
   "Hand cut and sewn locally",
   "Dyed with our proprietary colors",
   "Pre-washed & pre-shrunk",
