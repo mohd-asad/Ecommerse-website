@@ -2338,11 +2338,13 @@
     {
       "email": "mohdasad024@gmail.com",
       "password": "N0_passw0rd",
+      "addresses":[],
       "id": 1
     },
     {
       "email": "abrarNazir024@gmail.com",
       "password": "N0_passw0rd",
+      "addresses":[],
       "id": 2
     }
   ],
