@@ -12,6 +12,7 @@ import {
   selectLoggedInUser,
   updateUserAsync,
 } from "../features/auth/authSlice";
+import { createOrderAsync } from "../features/order/orderSlice";
 
 function Checkout() {
   const dispatch = useDispatch();
@@ -53,6 +54,22 @@ function Checkout() {
     setpaymentMethod(e.target.value);
   };
 
+  const handleOrder = (e) => {
+    const order = {
+      items,
+      user,
+      totalAmount,
+      totalItems,
+      paymentMethod,
+      selectAddresses,
+      status:'pending'
+    };
+    dispatch(createOrderAsync(order));
+    //todo:redirect to success page
+    //todo:decrease the stock on server
+    //todo:clear cart
+  };
+
   return (
     <>
       {!items.length && <Navigate to="/" replace={true}></Navigate>}
@@ -64,7 +81,10 @@ function Checkout() {
               noValidate
               onSubmit={handleSubmit((data) => {
                 dispatch(
-                  updateUserAsync({ ...user, addresses: [...addresses, data] })
+                  updateUserAsync({
+                    ...user,
+                    addresses: [...user.addresses, data],
+                  })
                 );
                 reset();
                 console.log(data);
@@ -166,7 +186,7 @@ function Checkout() {
 
                     <div className="col-span-full">
                       <label
-                        htmlFor="street-address"
+                        htmlFor="street"
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
                         Street address
@@ -174,11 +194,11 @@ function Checkout() {
                       <div className="mt-2">
                         <input
                           type="text"
-                          {...register("street-address", {
+                          {...register("street", {
                             required: "street-address is required",
                           })}
-                          id="street-address"
-                          autoComplete="street-address"
+                          id="street"
+                          autoComplete="street"
                           className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         />
                       </div>
@@ -289,7 +309,7 @@ function Checkout() {
                               {address.street}
                             </p>
                             <p className="mt-1 truncate text-xs leading-5 text-gray-500">
-                              {address.city}
+                              {address.pinCode}
                             </p>
                           </div>
                         </div>
@@ -298,7 +318,7 @@ function Checkout() {
                             {address.phone}
                           </p>
                           <p className="text-sm leading-6 text-gray-900">
-                            {address.pincode}
+                            {address.city}
                           </p>
                         </div>
                       </li>
@@ -321,7 +341,7 @@ function Checkout() {
                             name="payments"
                             type="radio"
                             value="cash"
-                            checked={paymentMethod==='cash'}
+                            checked={paymentMethod === "cash"}
                             className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                           />
                           <label
@@ -338,7 +358,7 @@ function Checkout() {
                             name="payments"
                             type="radio"
                             value="card"
-                            checked={paymentMethod==='card'}
+                            checked={paymentMethod === "card"}
                             className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                           />
                           <label
@@ -436,12 +456,12 @@ function Checkout() {
                   Shipping and taxes calculated at checkout.
                 </p>
                 <div className="mt-6">
-                  <Link
-                    to="/checkout"
-                    className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                  <div
+                    onClick={handleOrder}
+                    className="flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                   >
-                    Checkout
-                  </Link>
+                    Order Now
+                  </div>
                 </div>
                 <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
                   <p>

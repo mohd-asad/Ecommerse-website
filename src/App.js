@@ -17,11 +17,17 @@ import { fetchProductByUserIdAsync } from "./features/cart/cartSlice";
 import { useDispatch } from "react-redux";
 import { UseSelector, useSelector } from "react-redux/es/hooks/useSelector";
 import { selectLoggedInUser } from "./features/auth/authSlice";
+import PageNotFound from "./pages/404";
+import OrderSuccessPage from "./pages/OrderSuccessPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:(<Protected><Home></Home></Protected>),
+    element: (
+      <Protected>
+        <Home></Home>
+      </Protected>
+    ),
   },
   {
     path: "/Login",
@@ -55,17 +61,23 @@ const router = createBrowserRouter([
       </Protected>
     ),
   },
+  {
+    path: "/order-success",
+    element: <OrderSuccessPage></OrderSuccessPage>,
+  },
+  {
+    path: "*",
+    element: <PageNotFound></PageNotFound>,
+  },
 ]);
 
 function App() {
+  const dispatch = useDispatch();
+  const user = useSelector(selectLoggedInUser);
 
-  const dispatch=useDispatch();
-  const user=useSelector(selectLoggedInUser);
-
-  useEffect(()=>{
-    if(user)
-      dispatch(fetchProductByUserIdAsync(user.id));
-  },[dispatch,user])
+  useEffect(() => {
+    if (user) dispatch(fetchProductByUserIdAsync(user.id));
+  }, [dispatch, user]);
 
   return (
     <div className="App">
