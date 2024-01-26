@@ -1,20 +1,35 @@
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
+import { Navigate } from "react-router-dom";
+import { resetCartAsync } from "../features/cart/cartSlice";
+import { selectLoggedInUser } from "../features/auth/authSlice";
+import { resetOrder } from "../features/order/orderSlice";
 
 export default function OrderSuccessPage() {
-  const params= useParams();
+  const params = useParams();
+  const dispatch = useDispatch();
+  const user = useSelector(selectLoggedInUser);
+
+  useEffect(() => {
+    // resetCart
+    dispatch(resetCartAsync(user.id));
+    // resetOrder
+    dispatch(resetOrder());
+  }, [dispatch, user]);
   return (
     <>
       {!params.id && <Navigate to="/" replace={true}></Navigate>}
       <main className="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
-          <p className="text-base font-semibold text-indigo-600">
+          <p className="text-base font-semibold text-indigo-600 ">
             Order Placed Succesfully
           </p>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Order number #{params?.id}
           </h1>
           <p className="mt-6 text-base leading-7 text-gray-600">
-            You can check your order in My Account {'>'} My Orders
+            You can check your order in My Account {">"} My Orders
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link
