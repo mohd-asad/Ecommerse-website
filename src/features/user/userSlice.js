@@ -1,13 +1,13 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { fetchLoggedInUserOrders } from './userAPI';
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { fetchLoggedInUserOrders } from "./userAPI";
 
 const initialState = {
   userOrders: [],
-  status: 'idle',
+  status: "idle",
 };
 
 export const fetchLoggedInUserOrdersAsync = createAsyncThunk(
-  'counter/fetchLoggedInUserOrders',
+  "counter/fetchLoggedInUserOrders",
   async (userId) => {
     const response = await fetchLoggedInUserOrders(userId);
     // The value we return becomes the `fulfilled` action payload
@@ -16,29 +16,27 @@ export const fetchLoggedInUserOrdersAsync = createAsyncThunk(
 );
 
 export const userSlice = createSlice({
-  name: 'user',
+  name: "user",
   initialState,
 
   reducers: {
     increment: (state) => {
-    
       state.value += 1;
     },
   },
- 
+
   extraReducers: (builder) => {
     builder
       .addCase(fetchLoggedInUserOrdersAsync.pending, (state) => {
-        state.status = 'loading';
+        state.status = "loading";
       })
       .addCase(fetchLoggedInUserOrdersAsync.fulfilled, (state, action) => {
-        state.status = 'idle';
+        state.status = "idle";
         state.userOrders = action.payload;
       });
   },
 });
 
-
-export const selectUserOders = (state) => state.order.userOrders;
+export const selectUserOrders = (state) => state.user.userOrders;
 
 export default userSlice.reducer;

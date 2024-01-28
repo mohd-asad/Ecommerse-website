@@ -2558,7 +2558,7 @@
       "totalAmount": 2605,
       "totalItems": 4,
       "paymentMethod": "card",
-      "selectAddresses": {
+      "selectedAddress": {
         "name": "Mohd asad",
         "phone": "+91 7017529095",
         "country": "Country",
@@ -2685,7 +2685,7 @@
       "totalAmount": 2605,
       "totalItems": 4,
       "paymentMethod": "cash",
-      "selectAddresses": {
+      "selectedAddress": {
         "name": "rehman",
         "phone": "+91 7017529095",
         "country": "Country",
@@ -2812,7 +2812,7 @@
       "totalAmount": 2605,
       "totalItems": 4,
       "paymentMethod": "cash",
-      "selectAddresses": {
+      "selectedAddress": {
         "name": "Mohd asad",
         "phone": "+91 7017529095",
         "country": "Country",
@@ -2915,7 +2915,7 @@
       "user": {
         "email": "mohdasad024@gmail.com",
         "password": "N0_passw0rd",
-        "addresses": [
+        "address": [
           {
             "name": "Mohd asad",
             "phone": "+91 7017529095",
@@ -2940,7 +2940,7 @@
       "totalAmount": 2605,
       "totalItems": 4,
       "paymentMethod": "card",
-      "selectAddresses": {
+      "selectedAddress": {
         "name": "Mohd asad",
         "phone": "+91 7017529095",
         "country": "Country",
@@ -3068,7 +3068,7 @@
       "totalAmount": 2605,
       "totalItems": 4,
       "paymentMethod": "card",
-      "selectAddresses": {
+      "selectedAddress": {
         "name": "Mohd asad",
         "phone": "+91 7017529095",
         "country": "Country",

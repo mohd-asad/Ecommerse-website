@@ -3,12 +3,7 @@ import "./App.css";
 import Home from "./pages/home";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import CartPage from "./pages/CartPage";
 import Checkout from "./pages/CheckoutPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
@@ -19,6 +14,7 @@ import { useSelector } from "react-redux/es/hooks/useSelector";
 import { selectLoggedInUser } from "./features/auth/authSlice";
 import PageNotFound from "./pages/404";
 import OrderSuccessPage from "./pages/OrderSuccessPage";
+import UserOrdersPage from "./pages/UserOrdersPage";
 
 const router = createBrowserRouter([
   {
@@ -64,6 +60,10 @@ const router = createBrowserRouter([
   {
     path: "/order-success/:id",
     element: <OrderSuccessPage></OrderSuccessPage>,
+  },
+  {
+    path: "/orders",
+    element: <UserOrdersPage></UserOrdersPage>,
   },
   {
     path: "*",
