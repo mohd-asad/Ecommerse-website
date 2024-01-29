@@ -22,7 +22,7 @@ const sizes = [
   { name: "2XL", inStock: true },
   { name: "3XL", inStock: true },
 ];
-const highlights = [  
+const highlights = [
   "Hand cut and sewn locally",
   "Dyed with our proprietary colors",
   "Pre-washed & pre-shrunk",
@@ -36,7 +36,7 @@ function classNames(...classes) {
 export default function ProductDetail() {
   const [selectedColor, setSelectedColor] = useState(colors[0]);
   const [selectedSize, setSelectedSize] = useState(sizes[2]);
-  const user=useSelector(selectLoggedInUser);
+  const user = useSelector(selectLoggedInUser);
   const product = useSelector(selectProductById);
   const dispatch = useDispatch();
   const params = useParams();
@@ -286,12 +286,12 @@ export default function ProductDetail() {
                 </div>
 
                 <button
-                  onClick={((e)=>{
+                  onClick={(e) => {
                     e.preventDefault();
-                    const newItem={...product,quantity:1,user:user.id};
-                    delete newItem['id'];
+                    const newItem = { ...product, quantity: 1, user: user.id };
+                    delete newItem["id"];
                     dispatch(addToCartAsync(newItem));
-                  })}
+                  }}
                   type="submit"
                   className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
