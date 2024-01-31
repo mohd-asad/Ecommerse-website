@@ -15,8 +15,8 @@ export default function UserOrders() {
   return (
     <div>
       {orders.map((order) => (
-        <div>
-          <div className="mx-auto mt-14 bg-white max-w-3xl px-4 sm:px-6 lg:px-8">
+        <div key={order.id}>
+          <div className="mx-auto mt-10 bg-white max-w-6xl px-4 sm:px-6 lg:px-6">
             <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
               <h1 className="text-3xl my-5 font-bold tracking-tight text-gray-900">
                 Order #{order.id}
@@ -40,9 +40,9 @@ export default function UserOrders() {
                         <div>
                           <div className="flex justify-between text-base font-medium text-gray-900">
                             <h3>
-                              <a href={item.href}>${item.title}</a>
+                              <a href={item.href}>{item.title}</a>
                             </h3>
-                            <p className="ml-4">{item.price}</p>
+                            <p className="ml-4">${item.price}</p>
                           </div>
                           <p className="mt-1 text-sm text-gray-500">
                             {item.brand}
