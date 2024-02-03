@@ -2340,19 +2340,28 @@
       "password": "N0_passw0rd",
       "addresses": [
         {
-          "name": "Mohd asad",
+          "name": "rehman",
           "phone": "+91 7017529095",
           "country": "Country",
-          "street-address": "lajpat nagar gali no-3 near khalil masjid",
+          "street": "baradari chowk near khajoor wali masjid",
           "city": "moradabad",
           "region": "uttar pradesh",
           "pinCode": "244001"
         },
         {
-          "name": "rehman",
+          "name": "Mohd asad",
           "phone": "+91 7017529095",
           "country": "Country",
-          "street": "baradari chowk near khajoor wali masjid",
+          "street": "hayat nagar gali no-3 near khalil masjid",
+          "city": "moradabad",
+          "region": "uttar pradesh",
+          "pinCode": "244001"
+        },
+        {
+          "name": "mohd tayyab",
+          "phone": "7895789430",
+          "country": "Country",
+          "street": "lajpat nagar",
           "city": "moradabad",
           "region": "uttar pradesh",
           "pinCode": "244001"
@@ -3079,6 +3088,375 @@
       },
       "status": "pending",
       "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "Stylish Casual Jeans Shoes",
+          "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
+          "price": 58,
+          "discountPercentage": 7.55,
+          "rating": 4.55,
+          "stock": 129,
+          "brand": "Sneakers",
+          "category": "mens-shoes",
+          "thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/60/1.jpg",
+            "https://i.dummyjson.com/data/products/60/2.jpg",
+            "https://i.dummyjson.com/data/products/60/3.jpg",
+            "https://i.dummyjson.com/data/products/60/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        },
+        {
+          "title": "Silver Ring Set Women",
+          "description": "Jewelry Type:RingsCertificate Type:NonePlating:Silver PlatedShapeattern:noneStyle:CLASSICReligious",
+          "price": 70,
+          "discountPercentage": 13.57,
+          "rating": 4.61,
+          "stock": 51,
+          "brand": "Darojay",
+          "category": "womens-jewellery",
+          "thumbnail": "https://i.dummyjson.com/data/products/76/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/76/1.jpg",
+            "https://i.dummyjson.com/data/products/76/2.jpg",
+            "https://i.dummyjson.com/data/products/76/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 72
+        }
+      ],
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Mohd asad",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street-address": "lajpat nagar gali no-3 near khalil masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "rehman",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "totalAmount": 128,
+      "totalItems": 2,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Mohd asad",
+        "phone": "+91 7017529095",
+        "country": "Country",
+        "street-address": "lajpat nagar gali no-3 near khalil masjid",
+        "city": "moradabad",
+        "region": "uttar pradesh",
+        "pinCode": "244001"
+      },
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "sublimation plain kids tank",
+          "description": "sublimation plain kids tank tops wholesale",
+          "price": 100,
+          "discountPercentage": 11.12,
+          "rating": 4.8,
+          "stock": 20,
+          "brand": "Soft Cotton",
+          "category": "tops",
+          "thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/38/1.png",
+            "https://i.dummyjson.com/data/products/38/2.jpg",
+            "https://i.dummyjson.com/data/products/38/3.jpg",
+            "https://i.dummyjson.com/data/products/38/4.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        }
+      ],
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Mohd asad",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street-address": "lajpat nagar gali no-3 near khalil masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "rehman",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "totalAmount": 100,
+      "totalItems": 1,
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "rehman",
+        "phone": "+91 7017529095",
+        "country": "Country",
+        "street": "baradari chowk near khajoor wali masjid",
+        "city": "moradabad",
+        "region": "uttar pradesh",
+        "pinCode": "244001"
+      },
+      "status": "pending",
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "sublimation plain kids tank",
+          "description": "sublimation plain kids tank tops wholesale",
+          "price": 100,
+          "discountPercentage": 11.12,
+          "rating": 4.8,
+          "stock": 20,
+          "brand": "Soft Cotton",
+          "category": "tops",
+          "thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/38/1.png",
+            "https://i.dummyjson.com/data/products/38/2.jpg",
+            "https://i.dummyjson.com/data/products/38/3.jpg",
+            "https://i.dummyjson.com/data/products/38/4.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        },
+        {
+          "title": "Rose Ring",
+          "description": "Brand: The Greetings Flower Colour: RedRing Colour: GoldenSize: Adjustable",
+          "price": 100,
+          "discountPercentage": 3.22,
+          "rating": 4.21,
+          "stock": 149,
+          "brand": "Copenhagen Luxe",
+          "category": "womens-jewellery",
+          "thumbnail": "https://i.dummyjson.com/data/products/77/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/77/1.jpg",
+            "https://i.dummyjson.com/data/products/77/2.jpg",
+            "https://i.dummyjson.com/data/products/77/3.jpg",
+            "https://i.dummyjson.com/data/products/77/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 72
+        },
+        {
+          "title": "HOT SALE IN EUROPE electric racing motorcycle",
+          "description": "HOT SALE IN EUROPE electric racing motorcycle electric motorcycle for sale adult electric motorcycles",
+          "price": 920,
+          "discountPercentage": 14.4,
+          "rating": 4.19,
+          "stock": 22,
+          "brand": "BRAVE BULL",
+          "category": "motorcycle",
+          "thumbnail": "https://i.dummyjson.com/data/products/92/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/92/1.jpg",
+            "https://i.dummyjson.com/data/products/92/2.jpg",
+            "https://i.dummyjson.com/data/products/92/3.jpg",
+            "https://i.dummyjson.com/data/products/92/4.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 73
+        }
+      ],
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "rehman",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "totalAmount": 1120,
+      "totalItems": 3,
+      "paymentMethod": "cash",
+      "selectedAddress": null,
+      "status": "pending",
+      "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "Women Strip Heel",
+          "description": "Features: Flip-flops, Mid Heel, Comfortable, Striped Heel, Antiskid, Striped",
+          "price": 40,
+          "discountPercentage": 10.83,
+          "rating": 4.02,
+          "stock": 25,
+          "brand": "Sandals Flip Flops",
+          "category": "womens-shoes",
+          "thumbnail": "https://i.dummyjson.com/data/products/48/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/48/1.jpg",
+            "https://i.dummyjson.com/data/products/48/2.jpg",
+            "https://i.dummyjson.com/data/products/48/3.jpg",
+            "https://i.dummyjson.com/data/products/48/4.jpg",
+            "https://i.dummyjson.com/data/products/48/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 1,
+          "id": 71
+        },
+        {
+          "title": "3 Tier Corner Shelves",
+          "description": "3 Tier Corner Shelves | 3 PCs Wall Mount Kitchen Shelf | Floating Bedroom Shelf",
+          "price": 700,
+          "discountPercentage": 17,
+          "rating": 4.31,
+          "stock": 106,
+          "brand": "Kitchen Shelf",
+          "category": "furniture",
+          "thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/33/1.jpg",
+            "https://i.dummyjson.com/data/products/33/2.jpg",
+            "https://i.dummyjson.com/data/products/33/3.jpg",
+            "https://i.dummyjson.com/data/products/33/4.jpg",
+            "https://i.dummyjson.com/data/products/33/thumbnail.jpg"
+          ],
+          "quantity": 4,
+          "user": 1,
+          "id": 72
+        },
+        {
+          "title": "women's shoes",
+          "description": "Close: Lace, Style with bottom: Increased inside, Sole Material: Rubber",
+          "price": 40,
+          "discountPercentage": 16.96,
+          "rating": 4.14,
+          "stock": 72,
+          "brand": "IELGY fashion",
+          "category": "womens-shoes",
+          "thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/46/1.webp",
+            "https://i.dummyjson.com/data/products/46/2.jpg",
+            "https://i.dummyjson.com/data/products/46/3.jpg",
+            "https://i.dummyjson.com/data/products/46/4.jpg",
+            "https://i.dummyjson.com/data/products/46/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 73
+        },
+        {
+          "title": "women's shoes",
+          "description": "Close: Lace, Style with bottom: Increased inside, Sole Material: Rubber",
+          "price": 40,
+          "discountPercentage": 16.96,
+          "rating": 4.14,
+          "stock": 72,
+          "brand": "IELGY fashion",
+          "category": "womens-shoes",
+          "thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/46/1.webp",
+            "https://i.dummyjson.com/data/products/46/2.jpg",
+            "https://i.dummyjson.com/data/products/46/3.jpg",
+            "https://i.dummyjson.com/data/products/46/4.jpg",
+            "https://i.dummyjson.com/data/products/46/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 1,
+          "id": 74
+        },
+        {
+          "title": "Square Sunglasses",
+          "description": "Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059",
+          "price": 28,
+          "discountPercentage": 13.89,
+          "rating": 4.64,
+          "stock": 64,
+          "brand": "mastar watch",
+          "category": "sunglasses",
+          "thumbnail": "https://i.dummyjson.com/data/products/84/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/84/1.jpg",
+            "https://i.dummyjson.com/data/products/84/2.jpg",
+            "https://i.dummyjson.com/data/products/84/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 1,
+          "id": 75
+        }
+      ],
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "rehman",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Mohd asad",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street": "hayat nagar gali no-3 near khalil masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "totalAmount": 3056,
+      "totalItems": 11,
+      "paymentMethod": "cash",
+      "selectedAddress": null,
+      "status": "pending",
+      "id": 9
     }
   ]
 }

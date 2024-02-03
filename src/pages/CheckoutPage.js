@@ -9,19 +9,16 @@ import {
 import { Navigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import {
-  selectLoggedInUser,
-  updateUserAsync,
-} from "../features/auth/authSlice";
-import {
   createOrderAsync,
   selectCurrentOrder,
 } from "../features/order/orderSlice";
+import { selectUserInfo, updateUserAsync } from "../features/user/userSlice";
 
 function Checkout() {
   const dispatch = useDispatch();
   const items = useSelector(selectItems);
   const [open, setOpen] = useState(true);
-  const user = useSelector(selectLoggedInUser);
+  const user = useSelector(selectUserInfo);
   const currentOrder = useSelector(selectCurrentOrder);
 
   const {
@@ -71,7 +68,6 @@ function Checkout() {
     dispatch(createOrderAsync(order));
     //todo:redirect to success page
     //todo:decrease the stock on server
-    //todo:clear cart
   };
 
   return (
@@ -460,7 +456,7 @@ function Checkout() {
                 </div>
                 <div className="flex justify-between text-base font-medium text-gray-900">
                   <p>Total Items In Cart</p>
-                  <p>${totalItems} items</p>
+                  <p>{totalItems} items</p>
                 </div>
                 <p className="mt-0.5 text-sm text-gray-500">
                   Shipping and taxes calculated at checkout.

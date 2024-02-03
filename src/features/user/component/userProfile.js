@@ -1,15 +1,25 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchLoggedInUserOrdersAsync} from "../userSlice";
-import { selectLoggedInUser } from "../../auth/authSlice";
+import {
+  fetchLoggedInUserOrdersAsync,
+  selectUserInfo,
+  updateUserAsync,
+} from "../userSlice";
 
 export default function UserProfile() {
   const dispatch = useDispatch();
-  const user = useSelector(selectLoggedInUser);
+  const user = useSelector(selectUserInfo);
 
   useEffect(() => {
     dispatch(fetchLoggedInUserOrdersAsync(user.id));
   }, []);
+
+  const handleEdit = (e, index) => {};
+  const handleRemove = (e, index) => {
+    const newUser = { ...user, addresses: [...user.addresses] }; //for shallow copy
+    newUser.addresses.splice(index, 1);
+    dispatch(updateUserAsync(newUser));
+  };
 
   return (
     <div>
@@ -47,6 +57,22 @@ export default function UserProfile() {
                 <p className="text-sm leading-6 text-gray-900">
                   {address.city}
                 </p>
+              </div>
+              <div className="hidden sm:flex sm:flex-col sm:items-end">
+                <button
+                  onClick={(e) => handleEdit(e, address.id)}
+                  type="button"
+                  className="font-medium text-indigo-800 hover:text-indigo-500"
+                >
+                  Edit
+                </button>
+                <button
+                  onClick={(e) => handleRemove(e, address.id)}
+                  type="button"
+                  className="font-medium text-indigo-800 hover:text-indigo-500"
+                >
+                  Remove
+                </button>
               </div>
             </div>
           ))}
