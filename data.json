@@ -2340,30 +2340,30 @@
       "password": "N0_passw0rd",
       "addresses": [
         {
-          "name": "rehman",
-          "phone": "+91 7017529095",
-          "country": "Country",
-          "street": "baradari chowk near khajoor wali masjid",
-          "city": "moradabad",
-          "region": "uttar pradesh",
+          "name": "Mohd Tayyab",
+          "email": "kevin098@gmail.com",
+          "phone": "7017529095",
+          "city": "Moradabad",
+          "street": "Hayat Nagar Gali No-3 Near Khalil Masjid",
+          "state": "Uttar Pradesh",
           "pinCode": "244001"
         },
         {
           "name": "Mohd asad",
+          "email": "mohdasad024@gmail.com",
           "phone": "+91 7017529095",
-          "country": "Country",
-          "street": "hayat nagar gali no-3 near khalil masjid",
+          "street": "baradari chowk near khajoor wali masjid",
           "city": "moradabad",
-          "region": "uttar pradesh",
+          "state": "uttar Pradesh",
           "pinCode": "244001"
         },
         {
-          "name": "mohd tayyab",
-          "phone": "7895789430",
-          "country": "Country",
-          "street": "lajpat nagar",
-          "city": "moradabad",
-          "region": "uttar pradesh",
+          "name": "Asad Ahmad",
+          "email": "mohdasad024@gmail.com",
+          "phone": "07017529095",
+          "city": "Moradabad",
+          "street": "Lajpat Nagar Near Asim Bihari School",
+          "state": "Uttar Pradesh",
           "pinCode": "244001"
         }
       ],
@@ -2463,72 +2463,6 @@
     {
       "items": [
         {
-          "id": 1,
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 9,
-          "title": "Infinix INBOOK",
-          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-          "price": 1099,
-          "discountPercentage": 11.83,
-          "rating": 4.54,
-          "stock": 96,
-          "brand": "Infinix",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/9/1.jpg",
-            "https://i.dummyjson.com/data/products/9/2.png",
-            "https://i.dummyjson.com/data/products/9/3.png",
-            "https://i.dummyjson.com/data/products/9/4.jpg",
-            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 60,
-          "title": "Stylish Casual Jeans Shoes",
-          "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
-          "price": 58,
-          "discountPercentage": 7.55,
-          "rating": 4.55,
-          "stock": 129,
-          "brand": "Sneakers",
-          "category": "mens-shoes",
-          "thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/60/1.jpg",
-            "https://i.dummyjson.com/data/products/60/2.jpg",
-            "https://i.dummyjson.com/data/products/60/3.jpg",
-            "https://i.dummyjson.com/data/products/60/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 2,
           "title": "iPhone X",
           "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
           "price": 899,
@@ -2543,754 +2477,47 @@
             "https://i.dummyjson.com/data/products/2/2.jpg",
             "https://i.dummyjson.com/data/products/2/3.jpg",
             "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street-address": "lajpat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 2605,
-      "totalItems": 4,
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Mohd asad",
-        "phone": "+91 7017529095",
-        "country": "Country",
-        "street-address": "lajpat nagar gali no-3 near khalil masjid",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "id": 1
-    },
-    {
-      "items": [
-        {
-          "id": 1,
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 9,
-          "title": "Infinix INBOOK",
-          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-          "price": 1099,
-          "discountPercentage": 11.83,
-          "rating": 4.54,
-          "stock": 96,
-          "brand": "Infinix",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/9/1.jpg",
-            "https://i.dummyjson.com/data/products/9/2.png",
-            "https://i.dummyjson.com/data/products/9/3.png",
-            "https://i.dummyjson.com/data/products/9/4.jpg",
-            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 60,
-          "title": "Stylish Casual Jeans Shoes",
-          "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
-          "price": 58,
-          "discountPercentage": 7.55,
-          "rating": 4.55,
-          "stock": 129,
-          "brand": "Sneakers",
-          "category": "mens-shoes",
-          "thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/60/1.jpg",
-            "https://i.dummyjson.com/data/products/60/2.jpg",
-            "https://i.dummyjson.com/data/products/60/3.jpg",
-            "https://i.dummyjson.com/data/products/60/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 2,
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street-address": "lajpat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "rehman",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 2605,
-      "totalItems": 4,
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "rehman",
-        "phone": "+91 7017529095",
-        "country": "Country",
-        "street": "baradari chowk near khajoor wali masjid",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "id": 2
-    },
-    {
-      "items": [
-        {
-          "id": 1,
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 9,
-          "title": "Infinix INBOOK",
-          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-          "price": 1099,
-          "discountPercentage": 11.83,
-          "rating": 4.54,
-          "stock": 96,
-          "brand": "Infinix",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/9/1.jpg",
-            "https://i.dummyjson.com/data/products/9/2.png",
-            "https://i.dummyjson.com/data/products/9/3.png",
-            "https://i.dummyjson.com/data/products/9/4.jpg",
-            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 60,
-          "title": "Stylish Casual Jeans Shoes",
-          "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
-          "price": 58,
-          "discountPercentage": 7.55,
-          "rating": 4.55,
-          "stock": 129,
-          "brand": "Sneakers",
-          "category": "mens-shoes",
-          "thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/60/1.jpg",
-            "https://i.dummyjson.com/data/products/60/2.jpg",
-            "https://i.dummyjson.com/data/products/60/3.jpg",
-            "https://i.dummyjson.com/data/products/60/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 2,
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street-address": "lajpat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "rehman",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 2605,
-      "totalItems": 4,
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Mohd asad",
-        "phone": "+91 7017529095",
-        "country": "Country",
-        "street-address": "lajpat nagar gali no-3 near khalil masjid",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 3
-    },
-    {
-      "items": [
-        {
-          "id": 1,
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 9,
-          "title": "Infinix INBOOK",
-          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-          "price": 1099,
-          "discountPercentage": 11.83,
-          "rating": 4.54,
-          "stock": 96,
-          "brand": "Infinix",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/9/1.jpg",
-            "https://i.dummyjson.com/data/products/9/2.png",
-            "https://i.dummyjson.com/data/products/9/3.png",
-            "https://i.dummyjson.com/data/products/9/4.jpg",
-            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 60,
-          "title": "Stylish Casual Jeans Shoes",
-          "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
-          "price": 58,
-          "discountPercentage": 7.55,
-          "rating": 4.55,
-          "stock": 129,
-          "brand": "Sneakers",
-          "category": "mens-shoes",
-          "thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/60/1.jpg",
-            "https://i.dummyjson.com/data/products/60/2.jpg",
-            "https://i.dummyjson.com/data/products/60/3.jpg",
-            "https://i.dummyjson.com/data/products/60/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 2,
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "address": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street-address": "lajpat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "rehman",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 2605,
-      "totalItems": 4,
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Mohd asad",
-        "phone": "+91 7017529095",
-        "country": "Country",
-        "street-address": "lajpat nagar gali no-3 near khalil masjid",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 4
-    },
-    {
-      "items": [
-        {
-          "id": 1,
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 9,
-          "title": "Infinix INBOOK",
-          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-          "price": 1099,
-          "discountPercentage": 11.83,
-          "rating": 4.54,
-          "stock": 96,
-          "brand": "Infinix",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/9/1.jpg",
-            "https://i.dummyjson.com/data/products/9/2.png",
-            "https://i.dummyjson.com/data/products/9/3.png",
-            "https://i.dummyjson.com/data/products/9/4.jpg",
-            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 60,
-          "title": "Stylish Casual Jeans Shoes",
-          "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
-          "price": 58,
-          "discountPercentage": 7.55,
-          "rating": 4.55,
-          "stock": 129,
-          "brand": "Sneakers",
-          "category": "mens-shoes",
-          "thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/60/1.jpg",
-            "https://i.dummyjson.com/data/products/60/2.jpg",
-            "https://i.dummyjson.com/data/products/60/3.jpg",
-            "https://i.dummyjson.com/data/products/60/thumbnail.jpg"
-          ],
-          "quentity": 1,
-          "user": 1,
-          "quantity": 1
-        },
-        {
-          "id": 2,
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street-address": "lajpat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "rehman",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 2605,
-      "totalItems": 4,
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Mohd asad",
-        "phone": "+91 7017529095",
-        "country": "Country",
-        "street-address": "lajpat nagar gali no-3 near khalil masjid",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 5
-    },
-    {
-      "items": [
-        {
-          "title": "Stylish Casual Jeans Shoes",
-          "description": "High Quality ,Stylish design ,Comfortable wear ,FAshion ,Durable",
-          "price": 58,
-          "discountPercentage": 7.55,
-          "rating": 4.55,
-          "stock": 129,
-          "brand": "Sneakers",
-          "category": "mens-shoes",
-          "thumbnail": "https://i.dummyjson.com/data/products/60/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/60/1.jpg",
-            "https://i.dummyjson.com/data/products/60/2.jpg",
-            "https://i.dummyjson.com/data/products/60/3.jpg",
-            "https://i.dummyjson.com/data/products/60/thumbnail.jpg"
           ],
           "quantity": 1,
           "user": 1,
           "id": 71
         },
         {
-          "title": "Silver Ring Set Women",
-          "description": "Jewelry Type:RingsCertificate Type:NonePlating:Silver PlatedShapeattern:noneStyle:CLASSICReligious",
-          "price": 70,
-          "discountPercentage": 13.57,
-          "rating": 4.61,
-          "stock": 51,
-          "brand": "Darojay",
-          "category": "womens-jewellery",
-          "thumbnail": "https://i.dummyjson.com/data/products/76/thumbnail.jpg",
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1749,
+          "discountPercentage": 11.02,
+          "rating": 4.57,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
           "images": [
-            "https://i.dummyjson.com/data/products/76/1.jpg",
-            "https://i.dummyjson.com/data/products/76/2.jpg",
-            "https://i.dummyjson.com/data/products/76/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 72
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street-address": "lajpat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "rehman",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 128,
-      "totalItems": 2,
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Mohd asad",
-        "phone": "+91 7017529095",
-        "country": "Country",
-        "street-address": "lajpat nagar gali no-3 near khalil masjid",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 6
-    },
-    {
-      "items": [
-        {
-          "title": "sublimation plain kids tank",
-          "description": "sublimation plain kids tank tops wholesale",
-          "price": 100,
-          "discountPercentage": 11.12,
-          "rating": 4.8,
-          "stock": 20,
-          "brand": "Soft Cotton",
-          "category": "tops",
-          "thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/38/1.png",
-            "https://i.dummyjson.com/data/products/38/2.jpg",
-            "https://i.dummyjson.com/data/products/38/3.jpg",
-            "https://i.dummyjson.com/data/products/38/4.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 71
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street-address": "lajpat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "rehman",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 100,
-      "totalItems": 1,
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "rehman",
-        "phone": "+91 7017529095",
-        "country": "Country",
-        "street": "baradari chowk near khajoor wali masjid",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 7
-    },
-    {
-      "items": [
-        {
-          "title": "sublimation plain kids tank",
-          "description": "sublimation plain kids tank tops wholesale",
-          "price": 100,
-          "discountPercentage": 11.12,
-          "rating": 4.8,
-          "stock": 20,
-          "brand": "Soft Cotton",
-          "category": "tops",
-          "thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/38/1.png",
-            "https://i.dummyjson.com/data/products/38/2.jpg",
-            "https://i.dummyjson.com/data/products/38/3.jpg",
-            "https://i.dummyjson.com/data/products/38/4.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 71
-        },
-        {
-          "title": "Rose Ring",
-          "description": "Brand: The Greetings Flower Colour: RedRing Colour: GoldenSize: Adjustable",
-          "price": 100,
-          "discountPercentage": 3.22,
-          "rating": 4.21,
-          "stock": 149,
-          "brand": "Copenhagen Luxe",
-          "category": "womens-jewellery",
-          "thumbnail": "https://i.dummyjson.com/data/products/77/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/77/1.jpg",
-            "https://i.dummyjson.com/data/products/77/2.jpg",
-            "https://i.dummyjson.com/data/products/77/3.jpg",
-            "https://i.dummyjson.com/data/products/77/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/6/1.png",
+            "https://i.dummyjson.com/data/products/6/2.jpg",
+            "https://i.dummyjson.com/data/products/6/3.png",
+            "https://i.dummyjson.com/data/products/6/4.jpg"
           ],
           "quantity": 1,
           "user": 1,
           "id": 72
         },
         {
-          "title": "HOT SALE IN EUROPE electric racing motorcycle",
-          "description": "HOT SALE IN EUROPE electric racing motorcycle electric motorcycle for sale adult electric motorcycles",
-          "price": 920,
-          "discountPercentage": 14.4,
-          "rating": 4.19,
-          "stock": 22,
-          "brand": "BRAVE BULL",
-          "category": "motorcycle",
-          "thumbnail": "https://i.dummyjson.com/data/products/92/thumbnail.jpg",
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
           "images": [
-            "https://i.dummyjson.com/data/products/92/1.jpg",
-            "https://i.dummyjson.com/data/products/92/2.jpg",
-            "https://i.dummyjson.com/data/products/92/3.jpg",
-            "https://i.dummyjson.com/data/products/92/4.jpg"
+            "https://i.dummyjson.com/data/products/13/1.jpg",
+            "https://i.dummyjson.com/data/products/13/2.png",
+            "https://i.dummyjson.com/data/products/13/3.jpg",
+            "https://i.dummyjson.com/data/products/13/4.jpg",
+            "https://i.dummyjson.com/data/products/13/thumbnail.webp"
           ],
           "quantity": 1,
           "user": 1,
@@ -3301,144 +2528,6 @@
         "email": "mohdasad024@gmail.com",
         "password": "N0_passw0rd",
         "addresses": [
-          {
-            "name": "rehman",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 1120,
-      "totalItems": 3,
-      "paymentMethod": "cash",
-      "selectedAddress": null,
-      "status": "pending",
-      "id": 8
-    },
-    {
-      "items": [
-        {
-          "title": "Women Strip Heel",
-          "description": "Features: Flip-flops, Mid Heel, Comfortable, Striped Heel, Antiskid, Striped",
-          "price": 40,
-          "discountPercentage": 10.83,
-          "rating": 4.02,
-          "stock": 25,
-          "brand": "Sandals Flip Flops",
-          "category": "womens-shoes",
-          "thumbnail": "https://i.dummyjson.com/data/products/48/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/48/1.jpg",
-            "https://i.dummyjson.com/data/products/48/2.jpg",
-            "https://i.dummyjson.com/data/products/48/3.jpg",
-            "https://i.dummyjson.com/data/products/48/4.jpg",
-            "https://i.dummyjson.com/data/products/48/thumbnail.jpg"
-          ],
-          "quantity": 2,
-          "user": 1,
-          "id": 71
-        },
-        {
-          "title": "3 Tier Corner Shelves",
-          "description": "3 Tier Corner Shelves | 3 PCs Wall Mount Kitchen Shelf | Floating Bedroom Shelf",
-          "price": 700,
-          "discountPercentage": 17,
-          "rating": 4.31,
-          "stock": 106,
-          "brand": "Kitchen Shelf",
-          "category": "furniture",
-          "thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/33/1.jpg",
-            "https://i.dummyjson.com/data/products/33/2.jpg",
-            "https://i.dummyjson.com/data/products/33/3.jpg",
-            "https://i.dummyjson.com/data/products/33/4.jpg",
-            "https://i.dummyjson.com/data/products/33/thumbnail.jpg"
-          ],
-          "quantity": 4,
-          "user": 1,
-          "id": 72
-        },
-        {
-          "title": "women's shoes",
-          "description": "Close: Lace, Style with bottom: Increased inside, Sole Material: Rubber",
-          "price": 40,
-          "discountPercentage": 16.96,
-          "rating": 4.14,
-          "stock": 72,
-          "brand": "IELGY fashion",
-          "category": "womens-shoes",
-          "thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/46/1.webp",
-            "https://i.dummyjson.com/data/products/46/2.jpg",
-            "https://i.dummyjson.com/data/products/46/3.jpg",
-            "https://i.dummyjson.com/data/products/46/4.jpg",
-            "https://i.dummyjson.com/data/products/46/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 73
-        },
-        {
-          "title": "women's shoes",
-          "description": "Close: Lace, Style with bottom: Increased inside, Sole Material: Rubber",
-          "price": 40,
-          "discountPercentage": 16.96,
-          "rating": 4.14,
-          "stock": 72,
-          "brand": "IELGY fashion",
-          "category": "womens-shoes",
-          "thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/46/1.webp",
-            "https://i.dummyjson.com/data/products/46/2.jpg",
-            "https://i.dummyjson.com/data/products/46/3.jpg",
-            "https://i.dummyjson.com/data/products/46/4.jpg",
-            "https://i.dummyjson.com/data/products/46/thumbnail.jpg"
-          ],
-          "quantity": 2,
-          "user": 1,
-          "id": 74
-        },
-        {
-          "title": "Square Sunglasses",
-          "description": "Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059",
-          "price": 28,
-          "discountPercentage": 13.89,
-          "rating": 4.64,
-          "stock": 64,
-          "brand": "mastar watch",
-          "category": "sunglasses",
-          "thumbnail": "https://i.dummyjson.com/data/products/84/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/84/1.jpg",
-            "https://i.dummyjson.com/data/products/84/2.jpg",
-            "https://i.dummyjson.com/data/products/84/thumbnail.jpg"
-          ],
-          "quantity": 2,
-          "user": 1,
-          "id": 75
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "rehman",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
           {
             "name": "Mohd asad",
             "phone": "+91 7017529095",
@@ -3451,12 +2540,484 @@
         ],
         "id": 1
       },
-      "totalAmount": 3056,
-      "totalItems": 11,
+      "totalAmount": 2661,
+      "totalItems": 3,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Mohd asad",
+        "phone": "+91 7017529095",
+        "country": "Country",
+        "street": "hayat nagar gali no-3 near khalil masjid",
+        "city": "moradabad",
+        "region": "uttar pradesh",
+        "pinCode": "244001"
+      },
+      "status": "pending",
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 3,
+          "user": 1,
+          "id": 71
+        },
+        {
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1749,
+          "discountPercentage": 11.02,
+          "rating": 4.57,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+          "images": [
+            "https://i.dummyjson.com/data/products/6/1.png",
+            "https://i.dummyjson.com/data/products/6/2.jpg",
+            "https://i.dummyjson.com/data/products/6/3.png",
+            "https://i.dummyjson.com/data/products/6/4.jpg"
+          ],
+          "quantity": 2,
+          "user": 1,
+          "id": 72
+        },
+        {
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+          "images": [
+            "https://i.dummyjson.com/data/products/13/1.jpg",
+            "https://i.dummyjson.com/data/products/13/2.png",
+            "https://i.dummyjson.com/data/products/13/3.jpg",
+            "https://i.dummyjson.com/data/products/13/4.jpg",
+            "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+          ],
+          "quantity": 3,
+          "user": 1,
+          "id": 73
+        }
+      ],
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Mohd asad",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street": "hayat nagar gali no-3 near khalil masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "totalAmount": 6234,
+      "totalItems": 8,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Mohd asad",
+        "phone": "+91 7017529095",
+        "country": "Country",
+        "street": "hayat nagar gali no-3 near khalil masjid",
+        "city": "moradabad",
+        "region": "uttar pradesh",
+        "pinCode": "244001"
+      },
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "title": "Royal Blue Premium Watch",
+          "description": "Men Silver Chain Royal Blue Premium Watch Latest Analog Watch",
+          "price": 50,
+          "discountPercentage": 2.56,
+          "rating": 4.89,
+          "stock": 142,
+          "brand": "SKMEI 9117",
+          "category": "mens-watches",
+          "thumbnail": "https://i.dummyjson.com/data/products/63/thumbnail.webp",
+          "images": [
+            "https://i.dummyjson.com/data/products/63/1.jpg",
+            "https://i.dummyjson.com/data/products/63/2.jpg",
+            "https://i.dummyjson.com/data/products/63/3.png",
+            "https://i.dummyjson.com/data/products/63/4.jpeg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        }
+      ],
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Mohd asad",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street": "hayat nagar gali no-3 near khalil masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "mohd tayyab",
+            "phone": "7895789430",
+            "country": "Country",
+            "street": "lajpat nagar near asim bihari school",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "totalAmount": 50,
+      "totalItems": 1,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "mohd tayyab",
+        "phone": "7895789430",
+        "country": "Country",
+        "street": "lajpat nagar near asim bihari school",
+        "city": "moradabad",
+        "region": "uttar pradesh",
+        "pinCode": "244001"
+      },
+      "status": "pending",
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 280,
+          "discountPercentage": 17.91,
+          "rating": 4.3,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/4.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        }
+      ],
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Mohd asad",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street": "hayat nagar gali no-3 near khalil masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "mohd tayyab",
+            "phone": "7895789430",
+            "country": "Country",
+            "street": "lajpat nagar near asim bihari school",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "totalAmount": 280,
+      "totalItems": 1,
       "paymentMethod": "cash",
       "selectedAddress": null,
       "status": "pending",
-      "id": 9
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        }
+      ],
+      "totalAmount": 1249,
+      "totalItems": 1,
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Mohd asad",
+            "phone": "+91 7017529095",
+            "country": "Country",
+            "street": "hayat nagar gali no-3 near khalil masjid",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "mohd tayyab",
+            "phone": "7895789430",
+            "country": "Country",
+            "street": "lajpat nagar near asim bihari school",
+            "city": "moradabad",
+            "region": "uttar pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "rehman",
+            "phone": "+91 7017529095",
+            "country": "Canada",
+            "street": "waterloo university",
+            "city": "waterloo",
+            "region": "onatoroi",
+            "pinCode": "8678576"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "mohd tayyab",
+        "phone": "7895789430",
+        "country": "Country",
+        "street": "lajpat nagar near asim bihari school",
+        "city": "moradabad",
+        "region": "uttar pradesh",
+        "pinCode": "244001"
+      },
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discountPercentage": 4.15,
+          "rating": 4.25,
+          "stock": 50,
+          "brand": "Samsung",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/7/1.jpg",
+            "https://i.dummyjson.com/data/products/7/2.jpg",
+            "https://i.dummyjson.com/data/products/7/3.jpg",
+            "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        }
+      ],
+      "totalAmount": 1499,
+      "totalItems": 1,
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Mohd asad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "+91 7017529095",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "state": "uttar Pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Mohd asad",
+        "email": "mohdasad024@gmail.com",
+        "phone": "+91 7017529095",
+        "street": "baradari chowk near khajoor wali masjid",
+        "city": "moradabad",
+        "state": "uttar Pradesh",
+        "pinCode": "244001"
+      },
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        }
+      ],
+      "totalAmount": 899,
+      "totalItems": 1,
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Mohd asad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "+91 7017529095",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "state": "uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "rehman",
+            "email": "mehboob.a1245@gmail.com",
+            "phone": "7895789430",
+            "street": "lajpat nagar near asim bihari school",
+            "city": "moradabad",
+            "state": "uttar Pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": null,
+      "status": "pending",
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "HP Pavilion 15-DK1056WM",
+          "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+          "price": 1099,
+          "discountPercentage": 6.18,
+          "rating": 4.43,
+          "stock": 89,
+          "brand": "HP Pavilion",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+          "images": [
+            "https://i.dummyjson.com/data/products/10/1.jpg",
+            "https://i.dummyjson.com/data/products/10/2.jpg",
+            "https://i.dummyjson.com/data/products/10/3.jpg",
+            "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        }
+      ],
+      "totalAmount": 1099,
+      "totalItems": 1,
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "mohd tayyab",
+            "email": "kevin098@gmail.com",
+            "phone": "+91 7017529095",
+            "street": "hayat nagar gali no-3 near khalil masjid",
+            "city": "moradabad",
+            "state": "uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Mohd asad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "+91 7017529095",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "state": "uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Mohd asad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "07017529095",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "state": "uttar Pradesh",
+            "pinCode": "244001"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Mohd asad",
+        "email": "mohdasad024@gmail.com",
+        "phone": "07017529095",
+        "street": "baradari chowk near khajoor wali masjid",
+        "city": "moradabad",
+        "state": "uttar Pradesh",
+        "pinCode": "244001"
+      },
+      "status": "pending",
+      "id": 8
     }
   ]
 }

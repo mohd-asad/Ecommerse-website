@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
   fetchLoggedInUserOrdersAsync,
-  selectUserInfo,
-  selectUserOrders,
+  selectUserOrders,selectUserInfo
 } from "../userSlice";
 
 export default function UserOrders() {
@@ -13,7 +12,7 @@ export default function UserOrders() {
 
   useEffect(() => {
     dispatch(fetchLoggedInUserOrdersAsync(user.id));
-  }, []);
+  }, [dispatch,user]);
 
   return (
     <div>
