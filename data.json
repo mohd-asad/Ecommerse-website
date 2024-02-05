@@ -2365,6 +2365,15 @@
           "street": "Lajpat Nagar Near Asim Bihari School",
           "state": "Uttar Pradesh",
           "pinCode": "244001"
+        },
+        {
+          "name": "Asad",
+          "email": "mohdahmad@gmail.com",
+          "phone": "7895789430",
+          "street": "Nafees road, Batla chowk, Batla House, Jamia Nagar",
+          "city": "Delhi",
+          "state": "Delhi",
+          "pinCode": "110011"
         }
       ],
       "id": 1
@@ -3018,6 +3027,88 @@
       },
       "status": "pending",
       "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 549,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/4.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 71
+        }
+      ],
+      "totalAmount": 549,
+      "totalItems": 1,
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Mohd Tayyab",
+            "email": "kevin098@gmail.com",
+            "phone": "7017529095",
+            "city": "Moradabad",
+            "street": "Hayat Nagar Gali No-3 Near Khalil Masjid",
+            "state": "Uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Mohd asad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "+91 7017529095",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "state": "uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Asad Ahmad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "07017529095",
+            "city": "Moradabad",
+            "street": "Lajpat Nagar Near Asim Bihari School",
+            "state": "Uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Asad",
+            "email": "mohdahmad@gmail.com",
+            "phone": "7895789430",
+            "street": "Nafees road, Batla chowk, Batla House, Jamia Nagar",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110011"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Asad",
+        "email": "mohdahmad@gmail.com",
+        "phone": "7895789430",
+        "street": "Nafees road, Batla chowk, Batla House, Jamia Nagar",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pinCode": "110011"
+      },
+      "status": "pending",
+      "id": 9
     }
   ]
 }
