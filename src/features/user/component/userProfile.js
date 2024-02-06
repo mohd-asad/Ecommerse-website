@@ -6,8 +6,6 @@ import {
   updateUserAsync,
 } from "../userSlice";
 import { useForm } from "react-hook-form";
-import { useSearchParams } from "react-router-dom";
-
 export default function UserProfile() {
   const dispatch = useDispatch();
   const user = useSelector(selectUserInfo);
