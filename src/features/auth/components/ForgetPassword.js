@@ -1,12 +1,9 @@
-import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link, Navigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import { checkUserAsync, selectError, selectLoggedInUser } from "../authSlice";
+import {  selectLoggedInUser } from "../authSlice";
 
 export default function ForgetPassword() {
-  const dispatch = useDispatch();
-  const error = useSelector(selectError);
   const user = useSelector(selectLoggedInUser);
   const {
     register,

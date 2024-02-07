@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
   fetchLoggedInUserOrdersAsync,
-  selectUserOrders,selectUserInfo
+  selectUserOrders,
+  selectUserInfo,
 } from "../userSlice";
 
 export default function UserOrders() {
@@ -11,13 +12,13 @@ export default function UserOrders() {
   const orders = useSelector(selectUserOrders);
 
   useEffect(() => {
-    dispatch(fetchLoggedInUserOrdersAsync(user.id));
-  }, [dispatch,user]);
+     dispatch(fetchLoggedInUserOrdersAsync(user.id));
+  }, [dispatch, user]);
 
   return (
     <div>
       {orders.map((order) => (
-        <div key={order.id}>
+        <div>
           <div className="mx-auto mt-10 bg-white max-w-6xl px-4 sm:px-6 lg:px-6">
             <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
               <h1 className="text-3xl my-5 font-bold tracking-tight text-gray-900">

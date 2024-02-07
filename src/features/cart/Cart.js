@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { deleteCartAsync, selectItems, updateCartAsync } from "./cartSlice";
@@ -6,7 +6,6 @@ import { deleteCartAsync, selectItems, updateCartAsync } from "./cartSlice";
 export default function Cart() {
   const dispatch = useDispatch();
   const items = useSelector(selectItems);
-  const [open, setOpen] = useState(true);
   const totalAmount = items.reduce(
     (amount, item) => item.price * item.quantity + amount,
     0
@@ -114,7 +113,6 @@ export default function Cart() {
                 <button
                   type="button"
                   className="font-medium text-indigo-600 hover:text-indigo-500"
-                  onClick={() => setOpen(false)}
                 >
                   Continue Shopping
                   <span aria-hidden="true"> &rarr;</span>

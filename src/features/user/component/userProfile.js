@@ -21,7 +21,7 @@ export default function UserProfile() {
 
   useEffect(() => {
     dispatch(fetchLoggedInUserOrdersAsync(user.id));
-  }, []);
+  }, [dispatch,user]);
 
   const handleEditForm = (index) => {
     setSelectedIndex(index);

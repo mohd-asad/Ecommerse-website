@@ -61,11 +61,7 @@ export const cartSlice = createSlice({
   name: "cart",
   initialState,
 
-  reducers: {
-    increment: (state) => {
-      state.value += 1;
-    },
-  },
+  reducers: {},
 
   extraReducers: (builder) => {
     builder
@@ -89,7 +85,7 @@ export const cartSlice = createSlice({
       .addCase(updateCartAsync.fulfilled, (state, action) => {
         state.status = "idle";
         const index = state.items.findIndex(
-          (item) => item.id == action.payload.id
+          (item) => item.id === action.payload.id
         );
         state.items[index] = action.payload;
       })
@@ -99,7 +95,7 @@ export const cartSlice = createSlice({
       .addCase(deleteCartAsync.fulfilled, (state, action) => {
         state.status = "idle";
         const index = state.items.findIndex(
-          (item) => item.id == action.payload.id
+          (item) => item.id === action.payload.id
         );
         state.items.splice(index, 1);
       })
@@ -112,8 +108,6 @@ export const cartSlice = createSlice({
       });
   },
 });
-
-export const { increment } = cartSlice.actions;
 
 export const selectItems = (state) => state.cart.items;
 
