@@ -19,6 +19,10 @@ import UserProfilePage from "./pages/UserProfilePage";
 import { fetchLoggedInUserAsync } from "./features/user/userSlice";
 import { SignOut } from "./features/auth/components/SignOut";
 import ForgetPasswordPage from "./pages/ForgetPasswordPage";
+import ProtectedAdmin from "./features/auth/components/ProtectedAdmin";
+import AdminHome from "./pages/AdminHome";
+import AdminProductDetailPage from "./pages/AdminProductDetailPage";
+import ProductFormPage from "./pages/ProductFormPage";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +31,14 @@ const router = createBrowserRouter([
       <Protected>
         <Home></Home>
       </Protected>
+    ),
+  },
+  {
+    path: "/admin",
+    element: (
+      <ProtectedAdmin>
+        <AdminHome></AdminHome>
+      </ProtectedAdmin>
     ),
   },
   {
@@ -59,6 +71,22 @@ const router = createBrowserRouter([
       <Protected>
         <ProductDetailPage></ProductDetailPage>
       </Protected>
+    ),
+  },
+  {
+    path: "/admin/product-form",
+    element: (
+      <ProtectedAdmin>
+        <ProductFormPage></ProductFormPage>
+      </ProtectedAdmin>
+    ),
+  },
+  {
+    path: "/admin/product-detail/:id",
+    element: (
+      <ProtectedAdmin>
+        <AdminProductDetailPage></AdminProductDetailPage>
+      </ProtectedAdmin>
     ),
   },
   {
@@ -101,6 +129,7 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router} />
+      {/* Link must be inside the route provider */}
     </div>
   );
 }

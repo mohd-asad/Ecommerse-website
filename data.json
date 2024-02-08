@@ -48,9 +48,7 @@
       "brand": "Samsung",
       "category": "smartphones",
       "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/3/1.jpg"
-      ]
+      "images": ["https://i.dummyjson.com/data/products/3/1.jpg"]
     },
     {
       "id": 4,
@@ -1428,9 +1426,7 @@
       "brand": "Fashion Jewellery",
       "category": "womens-jewellery",
       "thumbnail": "https://i.dummyjson.com/data/products/78/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/78/thumbnail.jpg"
-      ]
+      "images": ["https://i.dummyjson.com/data/products/78/thumbnail.jpg"]
     },
     {
       "id": 79,
@@ -1443,9 +1439,7 @@
       "brand": "Fashion Jewellery",
       "category": "womens-jewellery",
       "thumbnail": "https://i.dummyjson.com/data/products/79/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/79/1.jpg"
-      ]
+      "images": ["https://i.dummyjson.com/data/products/79/1.jpg"]
     },
     {
       "id": 80,
@@ -2338,6 +2332,7 @@
     {
       "email": "mohdasad024@gmail.com",
       "password": "N0_passw0rd",
+      "role": "user",
       "addresses": [
         {
           "name": "Mohd Tayyab",
@@ -2381,653 +2376,31 @@
     {
       "email": "abrarNazir024@gmail.com",
       "password": "N0_passw0rd",
+      "role": "user",
+      "addresses": [
+        {
+          "name": "Abrar Nazir",
+          "email": "abrarNazir024@gmail.com",
+          "phone": "1234567890",
+          "street": "Jamia Hostel, Jamia Nagar",
+          "city": "New Delhi",
+          "state": "Delhi",
+          "pinCode": "110101"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "email": "admin024@gmail.com",
+      "password": "N0_passw0rd",
+      "role": "admin",
       "addresses": [],
-      "id": 2
-    }
-  ],
-  "cart": [
-    {
-      "id": 7,
-      "title": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-      "price": 1499,
-      "discountPercentage": 4.15,
-      "rating": 4.25,
-      "stock": 50,
-      "brand": "Samsung",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/7/1.jpg",
-        "https://i.dummyjson.com/data/products/7/2.jpg",
-        "https://i.dummyjson.com/data/products/7/3.jpg",
-        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 2
-    },
-    {
-      "id": 27,
-      "title": "Flying Wooden Bird",
-      "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
-      "price": 51,
-      "discountPercentage": 15.58,
-      "rating": 4.41,
-      "stock": 17,
-      "brand": "Flying Wooden",
-      "category": "home-decoration",
-      "thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.webp",
-      "images": [
-        "https://i.dummyjson.com/data/products/27/1.jpg",
-        "https://i.dummyjson.com/data/products/27/2.jpg",
-        "https://i.dummyjson.com/data/products/27/3.jpg",
-        "https://i.dummyjson.com/data/products/27/4.jpg",
-        "https://i.dummyjson.com/data/products/27/thumbnail.webp"
-      ],
-      "quantity": 1,
-      "user": 2
-    },
-    {
-      "id": 70,
-      "title": "Stainless Steel Women",
-      "description": "Fashion Skmei 1830 Shell Dial Stainless Steel Women Wrist Watch Lady Bracelet Watch Quartz Watches Ladies",
-      "price": 35,
-      "discountPercentage": 8.98,
-      "rating": 4.08,
-      "stock": 111,
-      "brand": "Bracelet",
-      "category": "womens-watches",
-      "thumbnail": "https://i.dummyjson.com/data/products/70/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/70/1.jpg",
-        "https://i.dummyjson.com/data/products/70/2.jpg",
-        "https://i.dummyjson.com/data/products/70/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 2
-    },
-    {
-      "id": 12,
-      "title": "Brown Perfume",
-      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
-      "price": 40,
-      "discountPercentage": 15.66,
-      "rating": 4,
-      "stock": 52,
-      "brand": "Royal_Mirage",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/12/1.jpg",
-        "https://i.dummyjson.com/data/products/12/2.jpg",
-        "https://i.dummyjson.com/data/products/12/3.png",
-        "https://i.dummyjson.com/data/products/12/4.jpg",
-        "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 2
-    }
-  ],
-  "orders": [
-    {
-      "items": [
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 71
-        },
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 72
-        },
-        {
-          "title": "Fog Scent Xpressio Perfume",
-          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-          "price": 13,
-          "discountPercentage": 8.14,
-          "rating": 4.59,
-          "stock": 61,
-          "brand": "Fog Scent Xpressio",
-          "category": "fragrances",
-          "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
-          "images": [
-            "https://i.dummyjson.com/data/products/13/1.jpg",
-            "https://i.dummyjson.com/data/products/13/2.png",
-            "https://i.dummyjson.com/data/products/13/3.jpg",
-            "https://i.dummyjson.com/data/products/13/4.jpg",
-            "https://i.dummyjson.com/data/products/13/thumbnail.webp"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 73
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "hayat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 2661,
-      "totalItems": 3,
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Mohd asad",
-        "phone": "+91 7017529095",
-        "country": "Country",
-        "street": "hayat nagar gali no-3 near khalil masjid",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 1
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 3,
-          "user": 1,
-          "id": 71
-        },
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 2,
-          "user": 1,
-          "id": 72
-        },
-        {
-          "title": "Fog Scent Xpressio Perfume",
-          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-          "price": 13,
-          "discountPercentage": 8.14,
-          "rating": 4.59,
-          "stock": 61,
-          "brand": "Fog Scent Xpressio",
-          "category": "fragrances",
-          "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
-          "images": [
-            "https://i.dummyjson.com/data/products/13/1.jpg",
-            "https://i.dummyjson.com/data/products/13/2.png",
-            "https://i.dummyjson.com/data/products/13/3.jpg",
-            "https://i.dummyjson.com/data/products/13/4.jpg",
-            "https://i.dummyjson.com/data/products/13/thumbnail.webp"
-          ],
-          "quantity": 3,
-          "user": 1,
-          "id": 73
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "hayat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 6234,
-      "totalItems": 8,
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Mohd asad",
-        "phone": "+91 7017529095",
-        "country": "Country",
-        "street": "hayat nagar gali no-3 near khalil masjid",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 2
-    },
-    {
-      "items": [
-        {
-          "title": "Royal Blue Premium Watch",
-          "description": "Men Silver Chain Royal Blue Premium Watch Latest Analog Watch",
-          "price": 50,
-          "discountPercentage": 2.56,
-          "rating": 4.89,
-          "stock": 142,
-          "brand": "SKMEI 9117",
-          "category": "mens-watches",
-          "thumbnail": "https://i.dummyjson.com/data/products/63/thumbnail.webp",
-          "images": [
-            "https://i.dummyjson.com/data/products/63/1.jpg",
-            "https://i.dummyjson.com/data/products/63/2.jpg",
-            "https://i.dummyjson.com/data/products/63/3.png",
-            "https://i.dummyjson.com/data/products/63/4.jpeg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 71
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "hayat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "mohd tayyab",
-            "phone": "7895789430",
-            "country": "Country",
-            "street": "lajpat nagar near asim bihari school",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 50,
-      "totalItems": 1,
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "mohd tayyab",
-        "phone": "7895789430",
-        "country": "Country",
-        "street": "lajpat nagar near asim bihari school",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
+      
       "id": 3
-    },
-    {
-      "items": [
-        {
-          "title": "OPPOF19",
-          "description": "OPPO F19 is officially announced on April 2021.",
-          "price": 280,
-          "discountPercentage": 17.91,
-          "rating": 4.3,
-          "stock": 123,
-          "brand": "OPPO",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/4/1.jpg",
-            "https://i.dummyjson.com/data/products/4/2.jpg",
-            "https://i.dummyjson.com/data/products/4/3.jpg",
-            "https://i.dummyjson.com/data/products/4/4.jpg",
-            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 71
-        }
-      ],
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "hayat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "mohd tayyab",
-            "phone": "7895789430",
-            "country": "Country",
-            "street": "lajpat nagar near asim bihari school",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "totalAmount": 280,
-      "totalItems": 1,
-      "paymentMethod": "cash",
-      "selectedAddress": null,
-      "status": "pending",
-      "id": 4
-    },
-    {
-      "items": [
-        {
-          "title": "Samsung Universe 9",
-          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-          "price": 1249,
-          "discountPercentage": 15.46,
-          "rating": 4.09,
-          "stock": 36,
-          "brand": "Samsung",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/3/1.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 71
-        }
-      ],
-      "totalAmount": 1249,
-      "totalItems": 1,
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "phone": "+91 7017529095",
-            "country": "Country",
-            "street": "hayat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "mohd tayyab",
-            "phone": "7895789430",
-            "country": "Country",
-            "street": "lajpat nagar near asim bihari school",
-            "city": "moradabad",
-            "region": "uttar pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "rehman",
-            "phone": "+91 7017529095",
-            "country": "Canada",
-            "street": "waterloo university",
-            "city": "waterloo",
-            "region": "onatoroi",
-            "pinCode": "8678576"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "mohd tayyab",
-        "phone": "7895789430",
-        "country": "Country",
-        "street": "lajpat nagar near asim bihari school",
-        "city": "moradabad",
-        "region": "uttar pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 5
-    },
-    {
-      "items": [
-        {
-          "title": "Samsung Galaxy Book",
-          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-          "price": 1499,
-          "discountPercentage": 4.15,
-          "rating": 4.25,
-          "stock": 50,
-          "brand": "Samsung",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/7/1.jpg",
-            "https://i.dummyjson.com/data/products/7/2.jpg",
-            "https://i.dummyjson.com/data/products/7/3.jpg",
-            "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 71
-        }
-      ],
-      "totalAmount": 1499,
-      "totalItems": 1,
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "email": "mohdasad024@gmail.com",
-            "phone": "+91 7017529095",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "state": "uttar Pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Mohd asad",
-        "email": "mohdasad024@gmail.com",
-        "phone": "+91 7017529095",
-        "street": "baradari chowk near khajoor wali masjid",
-        "city": "moradabad",
-        "state": "uttar Pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 6
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 71
-        }
-      ],
-      "totalAmount": 899,
-      "totalItems": 1,
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "Mohd asad",
-            "email": "mohdasad024@gmail.com",
-            "phone": "+91 7017529095",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "state": "uttar Pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "rehman",
-            "email": "mehboob.a1245@gmail.com",
-            "phone": "7895789430",
-            "street": "lajpat nagar near asim bihari school",
-            "city": "moradabad",
-            "state": "uttar Pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": null,
-      "status": "pending",
-      "id": 7
-    },
-    {
-      "items": [
-        {
-          "title": "HP Pavilion 15-DK1056WM",
-          "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-          "price": 1099,
-          "discountPercentage": 6.18,
-          "rating": 4.43,
-          "stock": 89,
-          "brand": "HP Pavilion",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
-          "images": [
-            "https://i.dummyjson.com/data/products/10/1.jpg",
-            "https://i.dummyjson.com/data/products/10/2.jpg",
-            "https://i.dummyjson.com/data/products/10/3.jpg",
-            "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 71
-        }
-      ],
-      "totalAmount": 1099,
-      "totalItems": 1,
-      "user": {
-        "email": "mohdasad024@gmail.com",
-        "password": "N0_passw0rd",
-        "addresses": [
-          {
-            "name": "mohd tayyab",
-            "email": "kevin098@gmail.com",
-            "phone": "+91 7017529095",
-            "street": "hayat nagar gali no-3 near khalil masjid",
-            "city": "moradabad",
-            "state": "uttar Pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "Mohd asad",
-            "email": "mohdasad024@gmail.com",
-            "phone": "+91 7017529095",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "state": "uttar Pradesh",
-            "pinCode": "244001"
-          },
-          {
-            "name": "Mohd asad",
-            "email": "mohdasad024@gmail.com",
-            "phone": "07017529095",
-            "street": "baradari chowk near khajoor wali masjid",
-            "city": "moradabad",
-            "state": "uttar Pradesh",
-            "pinCode": "244001"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Mohd asad",
-        "email": "mohdasad024@gmail.com",
-        "phone": "07017529095",
-        "street": "baradari chowk near khajoor wali masjid",
-        "city": "moradabad",
-        "state": "uttar Pradesh",
-        "pinCode": "244001"
-      },
-      "status": "pending",
-      "id": 8
-    },
+    }
+  ],
+  "cart": [],
+  "orders": [
     {
       "items": [
         {
@@ -3049,7 +2422,7 @@
           ],
           "quantity": 1,
           "user": 1,
-          "id": 71
+          "id": 1
         }
       ],
       "totalAmount": 549,
@@ -3099,16 +2472,70 @@
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Asad",
-        "email": "mohdahmad@gmail.com",
-        "phone": "7895789430",
-        "street": "Nafees road, Batla chowk, Batla House, Jamia Nagar",
-        "city": "Delhi",
-        "state": "Delhi",
-        "pinCode": "110011"
+        "name": "Mohd asad",
+        "email": "mohdasad024@gmail.com",
+        "phone": "+91 7017529095",
+        "street": "baradari chowk near khajoor wali masjid",
+        "city": "moradabad",
+        "state": "uttar Pradesh",
+        "pinCode": "244001"
       },
       "status": "pending",
-      "id": 9
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "title": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discountPercentage": 4.15,
+          "rating": 4.25,
+          "stock": 50,
+          "brand": "Samsung",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/7/1.jpg",
+            "https://i.dummyjson.com/data/products/7/2.jpg",
+            "https://i.dummyjson.com/data/products/7/3.jpg",
+            "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        }
+      ],
+      "totalAmount": 1499,
+      "totalItems": 1,
+      "user": {
+        "email": "abrarNazir024@gmail.com",
+        "password": "N0_passw0rd",
+        "addresses": [
+          {
+            "name": "Abrar Nazir",
+            "email": "abrarNazir024@gmail.com",
+            "phone": "1234567890",
+            "street": "Jamia Hostel, Jamia Nagar",
+            "city": "New Delhi",
+            "state": "Delhi",
+            "pinCode": "110101"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Abrar Nazir",
+        "email": "abrarNazir024@gmail.com",
+        "phone": "1234567890",
+        "street": "Jamia Hostel, Jamia Nagar",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "pinCode": "110101"
+      },
+      "status": "pending",
+      "id": 2
     }
   ]
 }

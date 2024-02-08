@@ -17,7 +17,7 @@ export default function UserOrders() {
 
   return (
     <div>
-      {orders.map((order) => (
+      {orders && orders.map((order) => (
         <div>
           <div className="mx-auto mt-10 bg-white max-w-6xl px-4 sm:px-6 lg:px-6">
             <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
