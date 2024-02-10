@@ -1,11 +1,24 @@
 import { useDispatch, useSelector } from "react-redux";
-import { selectBrands, selectCategories } from "../Product/productSlice";
+import {
+  clearSelectedProduct,
+  createProductAsync,
+  fetchProductByIdAsync,
+  selectBrands,
+  selectCategories,
+  selectProductById,
+  updateProductAsync,
+} from "../Product/productSlice";
 import { useForm } from "react-hook-form";
+import { useParams } from "react-router-dom";
+import { fetchProductById } from "../Product/productAPI";
+import { useEffect } from "react";
 
 export default function ProductForm() {
   const brands = useSelector(selectBrands);
   const categories = useSelector(selectCategories);
-  const dispatch=useDispatch();
+  const dispatch = useDispatch();
+  const selectedProduct = useSelector(selectProductById);
+  const params = useParams();
 
   const {
     register,
@@ -15,19 +28,67 @@ export default function ProductForm() {
     formState: { errors },
   } = useForm();
 
+  useEffect(() => {
+    if (params.id) {
+      dispatch(fetchProductByIdAsync(params.id));
+      reset();
+    } else {
+      dispatch(clearSelectedProduct());
+    }
+  }, [params, dispatch]);
+
+  useEffect(() => {
+    if (selectedProduct && params.id) {
+      setValue("title", selectedProduct.title);
+      setValue("description", selectedProduct.description);
+      setValue("price", selectedProduct.price);
+      setValue("discountPercentage", selectedProduct.discountPercentage);
+      setValue("thumbnail", selectedProduct.thumbnail);
+      setValue("stock", selectedProduct.stock);
+      setValue("image1", selectedProduct.images[0]);
+      setValue("image2", selectedProduct.images[1]);
+      setValue("image3", selectedProduct.images[2]);
+      setValue("brand", selectedProduct.brand);
+      setValue("category", selectedProduct.category);
+    }
+  }, [selectedProduct, setValue, params]);
+
+  const handleDelete = () => {
+    const product = { ...selectedProduct };
+    product.deleted = true;
+    dispatch(updateProductAsync(product));
+  };
+
   return (
     <form
       noValidate
       onSubmit={handleSubmit((data) => {
-        const product=[...data];
-        product.images=[product.image1,product.image2,product.image3,product.thumbnail]
-        delete product['image1'];
-        delete product['image2'];
-        delete product['image3'];
-        dispatch(
-            
-        );
+        const product = { ...data };
+        product.rating = 0;
+        product.images = [
+          product.image1,
+          product.image2,
+          product.image3,
+          product.thumbnail,
+        ];
+        delete product["image1"];
+        delete product["image2"];
+        delete product["image3"];
+        product.price = +product.price;
+        product.stock = +product.stock;
+        product.discountPercentage = +product.discountPercentage;
+
         console.log(data);
+
+        if (params.id) {
+          product.id = params.id;
+          product.rating = selectedProduct.rating || 0;
+          dispatch(updateProductAsync(product));
+          reset();
+        } else {
+          dispatch(createProductAsync(product));
+          reset();
+        }
       })}
     >
       <div className="space-y-12 bg-white p-12">

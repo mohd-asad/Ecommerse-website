@@ -461,9 +461,10 @@ function ProductGrid({ products }) {
     <div className="lg:col-span-3">
       {/* this is product list */}
       <div className="bg-white">
-        <Link 
-        to="/admin/product-form"
-        class="h-15 w-10 px-5 m-2 text-green-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800">
+        <Link
+          to="/admin/product-form"
+          class="h-15 w-10 px-5 m-2 text-green-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800"
+        >
           Add Product
         </Link>
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
@@ -509,13 +510,18 @@ function ProductGrid({ products }) {
                         </p>
                       </div>
                     </div>
+                    {product.deleted && (
+                      <div className="text-sm text-red-500">
+                        product deleted
+                      </div>
+                    )}
                   </div>
-                  <button
-                    type="button"
+                  <Link
+                    to={`/admin/product-form/edit/${product.id}`}
                     class="btn rounded bg-gray-200 my-3 px-4 py-2 font-medium hover:bg-gray-300"
                   >
                     Edit
-                  </button>
+                  </Link>
                 </div>
               </Link>
             ))}
