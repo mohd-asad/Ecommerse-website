@@ -1,10 +1,11 @@
 import { useDispatch, useSelector } from "react-redux";
-import { ITEMS_PER_PAGE } from "../../app/constants";
+import { ITEMS_PER_PAGE, discountedPrice } from "../../app/constants";
 import { useState, useEffect } from "react";
 import {
   fetchAllOrdersAsync,
   selectOrders,
   selectTotalOrders,
+  updateOrderAsync,
 } from "../order/orderSlice";
 import { EyeIcon, PencilIcon } from "@heroicons/react/20/solid";
 
@@ -13,6 +14,18 @@ export default function AdminOrders() {
   const orders = useSelector(selectOrders);
   const totalOrders = useSelector(selectTotalOrders);
   const [page, setPage] = useState(1);
+  const [editableOrderId, setEditableOrderId] = useState(-1);
+
+  const handleshow = () => {};
+  const handleEdit = (order) => {
+    console.log("handleEdit");
+    setEditableOrderId(order.Id);
+  };
+
+  const handleUpdate = (e, order) => {
+    const updateOrder = { ...order, status: e.target.value };
+    dispatch(updateOrderAsync(updateOrder));
+  };
 
   useEffect(() => {
     const pagination = { _page: page, _limit: ITEMS_PER_PAGE };
@@ -67,19 +80,17 @@ export default function AdminOrders() {
                         <div className="flex items-center">
                           <div></div>
                           <span>
-                            ${item.price}/#{item.stock}
+                            ${discountedPrice(item)}/#{item.quantity}
                           </span>
                         </div>
                       </td>
                     ))}
                     <td className="py-3 px-6 text-left">
-                        <div className="flex items-center">
-                          <div></div>
-                          <span>
-                            ${order.totalAmount}
-                          </span>
-                        </div>
-                      </td>
+                      <div className="flex items-center">
+                        <div></div>
+                        <span>${order.totalAmount}</span>
+                      </div>
+                    </td>
                     <td className="py-3 px-6 text-center">
                       <div className=" items-center justify-center">
                         <div>
@@ -93,17 +104,28 @@ export default function AdminOrders() {
                       </div>
                     </td>
                     <td className="py-3 px-6 text-center">
-                      <span className="bg-purple-200 text-purple-600 py-1 px-3 rounded-full text-xs">
-                        order.status
-                      </span>
+                      {order.id === editableOrderId ? (
+                        <select onChange={(e) => handleUpdate(e, order)}>
+                          <option value="pending">Pending</option>
+                          <option value="dispatch">Dispatch</option>
+                          <option value="delivered">Delivered</option>
+                          <option value="cancelled">Cancelled</option>
+                        </select>
+                      ) : (
+                        <span className="bg-purple-200 text-purple-600 py-1 px-3 rounded-full text-xs">
+                          {order.status}
+                        </span>
+                      )}
                     </td>
                     <td className="py-3 px-6 text-center">
                       <div className="flex item-center justify-center">
-                        <div className="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
-                          <EyeIcon></EyeIcon>
+                        <div className="w-6 mr-4 transform hover:text-purple-500 hover:scale-110">
+                          <EyeIcon onClick={(e) => handleshow(order)}></EyeIcon>
                         </div>
-                        <div className="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
-                          <PencilIcon></PencilIcon>
+                        <div className="w-6 mr-1 transform hover:text-purple-500 hover:scale-110">
+                          <PencilIcon
+                            onClick={(e) => handleEdit(order)}
+                          ></PencilIcon>
                         </div>
                       </div>
                     </td>
