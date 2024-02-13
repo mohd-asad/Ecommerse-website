@@ -2503,7 +2503,7 @@
         "state": "uttar Pradesh",
         "pinCode": "244001"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 1
     },
     {
@@ -2557,8 +2557,233 @@
         "state": "Delhi",
         "pinCode": "110101"
       },
-      "status": "pending",
+      "status": "delivered",
       "id": 2
+    },
+    {
+      "items": [
+        {
+          "title": "Oil Free Moisturizer 100ml",
+          "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
+          "price": 40,
+          "discountPercentage": 13.1,
+          "rating": 4.56,
+          "stock": 88,
+          "brand": "Dermive",
+          "category": "skincare",
+          "thumbnail": "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/18/1.jpg",
+            "https://i.dummyjson.com/data/products/18/2.jpg",
+            "https://i.dummyjson.com/data/products/18/3.jpg",
+            "https://i.dummyjson.com/data/products/18/4.jpg",
+            "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+          "images": [
+            "https://i.dummyjson.com/data/products/13/1.jpg",
+            "https://i.dummyjson.com/data/products/13/2.png",
+            "https://i.dummyjson.com/data/products/13/3.jpg",
+            "https://i.dummyjson.com/data/products/13/4.jpg",
+            "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        },
+        {
+          "title": "sublimation plain kids tank",
+          "description": "sublimation plain kids tank tops wholesale",
+          "price": 100,
+          "discountPercentage": 11.12,
+          "rating": 4.8,
+          "stock": 20,
+          "brand": "Soft Cotton",
+          "category": "tops",
+          "thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/38/1.png",
+            "https://i.dummyjson.com/data/products/38/2.jpg",
+            "https://i.dummyjson.com/data/products/38/3.jpg",
+            "https://i.dummyjson.com/data/products/38/4.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 136,
+      "totalItems": 3,
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Mohd Tayyab",
+            "email": "kevin098@gmail.com",
+            "phone": "7017529095",
+            "city": "Moradabad",
+            "street": "Hayat Nagar Gali No-3 Near Khalil Masjid",
+            "state": "Uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Mohd asad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "+91 7017529095",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "state": "uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Asad Ahmad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "07017529095",
+            "city": "Moradabad",
+            "street": "Lajpat Nagar Near Asim Bihari School",
+            "state": "Uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Asad",
+            "email": "mohdahmad@gmail.com",
+            "phone": "7895789430",
+            "street": "Nafees road, Batla chowk, Batla House, Jamia Nagar",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110011"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Asad",
+        "email": "mohdahmad@gmail.com",
+        "phone": "7895789430",
+        "street": "Nafees road, Batla chowk, Batla House, Jamia Nagar",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pinCode": "110011"
+      },
+      "status": "pending",
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "title": "Key Holder",
+          "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+          "price": 30,
+          "discountPercentage": 2.92,
+          "rating": 4.92,
+          "stock": 54,
+          "brand": "Golden",
+          "category": "home-decoration",
+          "thumbnail": "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/30/1.jpg",
+            "https://i.dummyjson.com/data/products/30/2.jpg",
+            "https://i.dummyjson.com/data/products/30/3.jpg",
+            "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Huawei P30",
+          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          "price": 499,
+          "discountPercentage": 10.58,
+          "rating": 4.09,
+          "stock": 32,
+          "brand": "Huawei",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/5/1.jpg",
+            "https://i.dummyjson.com/data/products/5/2.jpg",
+            "https://i.dummyjson.com/data/products/5/3.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 475,
+      "totalItems": 2,
+      "user": {
+        "email": "mohdasad024@gmail.com",
+        "password": "N0_passw0rd",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Mohd Tayyab",
+            "email": "kevin098@gmail.com",
+            "phone": "7017529095",
+            "city": "Moradabad",
+            "street": "Hayat Nagar Gali No-3 Near Khalil Masjid",
+            "state": "Uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Mohd asad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "+91 7017529095",
+            "street": "baradari chowk near khajoor wali masjid",
+            "city": "moradabad",
+            "state": "uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Asad Ahmad",
+            "email": "mohdasad024@gmail.com",
+            "phone": "07017529095",
+            "city": "Moradabad",
+            "street": "Lajpat Nagar Near Asim Bihari School",
+            "state": "Uttar Pradesh",
+            "pinCode": "244001"
+          },
+          {
+            "name": "Asad",
+            "email": "mohdahmad@gmail.com",
+            "phone": "7895789430",
+            "street": "Nafees road, Batla chowk, Batla House, Jamia Nagar",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110011"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Mohd Tayyab",
+        "email": "kevin098@gmail.com",
+        "phone": "7017529095",
+        "city": "Moradabad",
+        "street": "Hayat Nagar Gali No-3 Near Khalil Masjid",
+        "state": "Uttar Pradesh",
+        "pinCode": "244001"
+      },
+      "status": "pending",
+      "id": 4
     }
   ]
 }
