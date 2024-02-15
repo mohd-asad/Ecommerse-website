@@ -28,7 +28,7 @@ export const updateOrderAsync = createAsyncThunk(
 
 export const fetchAllOrdersAsync = createAsyncThunk(
   "order/fetchAllOrders",
-  async (pagination) => {
+  async ({pagination}) => {
     const response = await fetchAllOrders(pagination);
     // The value we return becomes the `fulfilled` action payload
     return response.data;

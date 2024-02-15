@@ -8,6 +8,7 @@ import {
   updateOrderAsync,
 } from "../order/orderSlice";
 import { EyeIcon, PencilIcon } from "@heroicons/react/20/solid";
+import Pagination from "../common/Pagination";
 
 export default function AdminOrders() {
   const dispatch = useDispatch();
@@ -28,6 +29,10 @@ export default function AdminOrders() {
     const updateOrder = { ...order, status: e.target.value };
     dispatch(updateOrderAsync(updateOrder));
     setEditableOrderId(-1);
+  };
+
+  const handlePage = (page) => {
+    setPage(page);
   };
 
   const chooseColor = (status) => {
@@ -55,7 +60,7 @@ export default function AdminOrders() {
       <div className=" bg-gray-100 flex items-center justify-cente font-sans overflow-hidden">
         <div className="w-full">
           <div className="bg-white shadow-md rounded my-6">
-            <table className="min-w-max w-full table-auto">
+            <table className=" w-full table-auto">
               <thead>
                 <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
                   <th className="py-3 px-6 text-left">Order</th>
@@ -157,6 +162,13 @@ export default function AdminOrders() {
           </div>
         </div>
       </div>
+
+      <Pagination
+        page={page}
+        setPage={setPage}
+        handlePage={handlePage}
+        totalItems={totalOrders}
+      ></Pagination>
     </div>
   );
 }
