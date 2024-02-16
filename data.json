@@ -2424,25 +2424,25 @@
   ],
   "cart": [
     {
-      "title": "Fog Scent Xpressio Perfume",
-      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-      "price": 13,
-      "discountPercentage": 8.14,
-      "rating": 4.59,
-      "stock": 61,
-      "brand": "Fog Scent Xpressio",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/13/1.jpg",
-        "https://i.dummyjson.com/data/products/13/2.png",
-        "https://i.dummyjson.com/data/products/13/3.jpg",
-        "https://i.dummyjson.com/data/products/13/4.jpg",
-        "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+        "https://i.dummyjson.com/data/products/2/1.jpg",
+        "https://i.dummyjson.com/data/products/2/2.jpg",
+        "https://i.dummyjson.com/data/products/2/3.jpg",
+        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
       ],
+      "productId": 2,
       "quantity": 1,
       "user": 1,
-      "id": 3
+      "id": 1
     }
   ],
   "orders": [

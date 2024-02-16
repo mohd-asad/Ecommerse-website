@@ -7,7 +7,12 @@ import {
   selectTotalOrders,
   updateOrderAsync,
 } from "../order/orderSlice";
-import { EyeIcon, PencilIcon } from "@heroicons/react/20/solid";
+import {
+  ArrowDownIcon,
+  ArrowUpIcon,
+  EyeIcon,
+  PencilIcon,
+} from "@heroicons/react/20/solid";
 import Pagination from "../common/Pagination";
 
 export default function AdminOrders() {
@@ -16,6 +21,7 @@ export default function AdminOrders() {
   const totalOrders = useSelector(selectTotalOrders);
   const [page, setPage] = useState(1);
   const [editableOrderId, setEditableOrderId] = useState(-1);
+  const [sort, setSort] = useState({});
 
   const handleshow = (order) => {
     console.log("handleshow");
@@ -50,23 +56,61 @@ export default function AdminOrders() {
     }
   };
 
+  const handleSort = (option) => {
+    const sort = { _sort: option.sort, _order: option.order };
+    console.log(sort);
+    setSort(sort);
+  };
+
   useEffect(() => {
     const pagination = { _page: page, _limit: ITEMS_PER_PAGE };
-    dispatch(fetchAllOrdersAsync({ pagination }));
-  }, [dispatch, page]);
+    dispatch(fetchAllOrdersAsync({ pagination, sort }));
+  }, [dispatch, page, sort]);
 
   return (
     <div className="overflow-x-auto">
       <div className=" bg-gray-100 flex items-center justify-cente font-sans overflow-hidden">
-        <div className="w-full">
-          <div className="bg-white shadow-md rounded my-6">
+        <div className="w-full ">
+          <div className="bg-white shadow-md rounded my-5">
             <table className=" w-full table-auto">
               <thead>
                 <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
-                  <th className="py-3 px-6 text-left">Order</th>
+                  <th
+                    className="py-3 px-6 text-left  cursor-pointer hover:text-gray-950"
+                    onClick={() =>
+                      handleSort({
+                        sort: "id",
+                        order: sort?._order === "asc" ? "desc" : "asc",
+                      })
+                    }
+                  >
+                    #Order
+                    {sort._sort === "id" &&
+                      (sort._order === "asc" ? (
+                        <ArrowUpIcon className="h-4 w-4 inline"></ArrowUpIcon>
+                      ) : (
+                        <ArrowDownIcon className="h-4 w-4 inline"></ArrowDownIcon>
+                      ))}
+                  </th>
                   <th className="py-3 px-6 text-left">Name</th>
                   <th className="py-3 px-6 text-left">Stock/Price</th>
-                  <th className="py-3 px-6 text-left">total Amount</th>
+                  <th
+                    className="py-3 px-6 text-left cursor-pointer hover:text-gray-950"
+                    onClick={() =>
+                      handleSort({
+                        sort: "totalAmount",
+                        order: sort?._order === "asc" ? "desc" : "asc",
+                      })
+                    }
+                  >
+                    total Amount
+                    {sort._sort === "totalAmount" &&
+                      (sort._order === "asc" ? (
+                        <ArrowUpIcon className="w-4 h-4 inline"></ArrowUpIcon>
+                      ) : (
+                        <ArrowDownIcon className="w-4 h-4 inline"></ArrowDownIcon>
+                      ))}
+                  </th>
                   <th className="py-3 px-6 text-center">Shipping Address</th>
                   <th className="py-3 px-6 text-center">Status</th>
                   <th className="py-3 px-6 text-center">Actions</th>
