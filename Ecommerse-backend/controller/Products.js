@@ -10,7 +10,7 @@ exports.createProduct = async (req, res) => {
   }
 };
 
-exports.FetchAllProducts = async (req, res) => {
+exports.fetchAllProducts = async (req, res) => {
   // sort = {_sort:"price",_order="desc"}
   // pagination = {_page:1,_limit=10}
 
@@ -46,5 +46,29 @@ exports.FetchAllProducts = async (req, res) => {
     res.status(200).json(docs);
   } catch (err) {
     res.status(400).json(err);
+  }
+};
+
+exports.fetchProductById = async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const product = await Product.findById(id);
+    res.status(200).json(product);
+  } catch (err) {
+    res.status(401).json(err);
+  }
+};
+
+exports.updateProduct = async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const product = await Product.findByIdAndUpdate(id, req.body, {
+      new: true,
+    });
+    res.status(200).json(product);
+  } catch (err) {
+    res.status(401).json(err);
   }
 };
