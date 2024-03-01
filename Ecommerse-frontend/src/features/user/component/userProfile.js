@@ -269,7 +269,7 @@ export default function UserProfile() {
           ) : null}
 
           <p className="mt-0.5 text-sm text-gray-500">Your Address :</p>
-          {user.addresses.map((address, index) => (
+          {user.addresses && user.addresses.map((address, index) => (
             <div>
               {selectedIndex === index ? (
                 <form
