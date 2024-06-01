@@ -14,8 +14,8 @@ exports.fetchAllProducts = async (req, res) => {
   // sort = {_sort:"price",_order="desc"}
   // pagination = {_page:1,_limit=10}
 
-  let query = Product.find();
-  let totalProductsQuery = Product.find();
+  let query = Product.find({});
+  let totalProductsQuery = Product.find({});
 
   if (req.query.category) {
     query = query.find({ category: req.query.category });
@@ -38,7 +38,7 @@ exports.fetchAllProducts = async (req, res) => {
   }
 
   const totalDocs = await totalProductsQuery.count().exec();
-  console.log(totalDocs);
+  console.log({ totalDocs });
 
   try {
     const docs = await query.exec();
@@ -56,7 +56,7 @@ exports.fetchProductById = async (req, res) => {
     const product = await Product.findById(id);
     res.status(200).json(product);
   } catch (err) {
-    res.status(401).json(err);
+    res.status(400).json(err);
   }
 };
 
@@ -69,6 +69,6 @@ exports.updateProduct = async (req, res) => {
     });
     res.status(200).json(product);
   } catch (err) {
-    res.status(401).json(err);
+    res.status(400).json(err);
   }
 };
