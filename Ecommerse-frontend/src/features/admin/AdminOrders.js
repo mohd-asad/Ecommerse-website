@@ -132,10 +132,13 @@ export default function AdminOrders() {
                           <div className="mr-2">
                             <img
                               className="w-6 h-6 rounded-full"
-                              src={item.thumbnail}
+                              src={item.product.thumbnail}
+                              alt={item.product.title}
                             />
                           </div>
-                          <span>{item.title}</span>
+                          <span>
+                            {item.product.title}
+                          </span>
                         </div>
                       ))}
                     </td>
@@ -144,7 +147,7 @@ export default function AdminOrders() {
                         <div className="flex items-center">
                           <div className="mr-2">
                             <span>
-                              ${discountedPrice(item)}/#{item.quantity}
+                            #{item.quantity}/${discountedPrice(item.product)}
                             </span>
                           </div>
                         </div>
