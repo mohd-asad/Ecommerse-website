@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import { StarIcon } from "@heroicons/react/20/solid";
 import { RadioGroup } from "@headlessui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchProductByIdAsync, selectProductById } from "../Product/productSlice"
+import {
+  fetchProductByIdAsync,
+  selectProductById,
+} from "../Product/productSlice";
 import { useParams } from "react-router-dom";
 import { addToCartAsync } from "../cart/cartSlice";
-import { selectLoggedInUser } from "../auth/authSlice";
 
 const colors = [
   { name: "White", class: "bg-white", selectedClass: "ring-gray-400" },
@@ -36,7 +38,6 @@ function classNames(...classes) {
 export default function AdminProductDetail() {
   const [selectedColor, setSelectedColor] = useState(colors[0]);
   const [selectedSize, setSelectedSize] = useState(sizes[2]);
-  const user = useSelector(selectLoggedInUser);
   const product = useSelector(selectProductById);
   const dispatch = useDispatch();
   const params = useParams();
@@ -288,7 +289,7 @@ export default function AdminProductDetail() {
                 <button
                   onClick={(e) => {
                     e.preventDefault();
-                    const newItem = { ...product, quantity: 1, user: user.id };
+                    const newItem = { ...product, quantity: 1 };
                     delete newItem["id"];
                     dispatch(addToCartAsync(newItem));
                   }}

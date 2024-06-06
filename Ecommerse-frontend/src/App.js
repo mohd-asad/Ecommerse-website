@@ -138,8 +138,8 @@ function App() {
 
   useEffect(() => {
     if (user) {
-      dispatch(fetchProductByUserIdAsync(user.id));
-      dispatch(fetchLoggedInUserAsync(user.id));
+      dispatch(fetchProductByUserIdAsync());
+      dispatch(fetchLoggedInUserAsync());
     }
   }, [dispatch, user]);
 

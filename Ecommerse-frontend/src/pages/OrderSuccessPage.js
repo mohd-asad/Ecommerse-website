@@ -4,19 +4,16 @@ import { Link, useParams } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 import { resetCartAsync } from "../features/cart/cartSlice";
 import { resetOrder } from "../features/order/orderSlice";
-import { selectUserInfo } from "../features/user/userSlice";
 
 export default function OrderSuccessPage() {
   const params = useParams();
   const dispatch = useDispatch();
-  const user = useSelector(selectUserInfo);
-
   useEffect(() => {
     // resetCart
-    dispatch(resetCartAsync(user.id));
+    dispatch(resetCartAsync());
     // resetOrder
     dispatch(resetOrder());
-  }, [dispatch, user]);
+  }, [dispatch]);
   return (
     <>
       {!params.id && <Navigate to="/" replace={true}></Navigate>}
