@@ -31,11 +31,14 @@ export const checkUserAsync = createAsyncThunk(
   }
 );
 
-export const signOutAsync = createAsyncThunk("user/signOut", async () => {
-  const response = await signOut();
-  // The value we return becomes the `fulfilled` action payload
-  return response.data;
-});
+export const signOutAsync = createAsyncThunk(
+  "user/signOut",
+  async (loginInfo) => {
+    const response = await signOut(loginInfo);
+    // The value we return becomes the `fulfilled` action payload
+    return response.data;
+  }
+);
 
 export const authSlice = createSlice({
   name: "user",
@@ -73,6 +76,6 @@ export const authSlice = createSlice({
   },
 });
 
-export const selectloggedInUser = (state) => state.auth.loggedInUserToken;
+export const selectLoggedInUser = (state) => state.auth.loggedInUserToken;
 export const selectError = (state) => state.auth.error;
 export default authSlice.reducer;
