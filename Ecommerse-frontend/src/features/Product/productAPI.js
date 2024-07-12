@@ -1,7 +1,7 @@
 export function fetchProductById(id) {
   return new Promise(async (resolve) => {
     //todo
-    const response = await fetch("http://localhost:8080/products/" + id);
+    const response = await fetch("/products/" + id);
     const data = await response.json();
     resolve({ data });
   });
@@ -10,7 +10,7 @@ export function fetchProductById(id) {
 export function updateProduct(update) {
   return new Promise(async (resolve) => {
     const response = await fetch(
-      "http://localhost:8080/products/" + update.id,
+      "/products/" + update.id,
       {
         method: "PATCH",
         body: JSON.stringify(update),
@@ -48,7 +48,7 @@ export function fetchProductsByFilters(filter, sort, pagination, admin) {
   return new Promise(async (resolve) => {
     //todo
     const response = await fetch(
-      "http://localhost:8080/products?" + queryString + "isAdmin"
+      "/products?" + queryString + "isAdmin"
     );
     const data = await response.json();
     const totalItems = await response.headers.get("X-Total-Count");
@@ -58,7 +58,7 @@ export function fetchProductsByFilters(filter, sort, pagination, admin) {
 
 export function fetchCategories() {
   return new Promise(async (resolve) => {
-    const response = await fetch("http://localhost:8080/categories");
+    const response = await fetch("/categories");
     const data = await response.json();
     resolve({ data });
   });
@@ -66,7 +66,7 @@ export function fetchCategories() {
 
 export function fetchBrands() {
   return new Promise(async (resolve) => {
-    const response = await fetch("http://localhost:8080/brands");
+    const response = await fetch("/brands");
     const data = await response.json();
     resolve({ data });
   });
@@ -74,7 +74,7 @@ export function fetchBrands() {
 
 export function createProduct(product) {
   return new Promise(async (resolve) => {
-    const response = await fetch("http://localhost:8080/products/", {
+    const response = await fetch("/products/", {
       method: "POST",
       body: JSON.stringify(product),
       headers: { "content-type": "application/json" },

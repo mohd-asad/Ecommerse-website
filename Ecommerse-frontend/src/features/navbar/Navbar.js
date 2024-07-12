@@ -43,7 +43,7 @@ function Navbar({ children }) {
                         <Link to="/">
                           <img
                             className="h-8 w-8"
-                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                            src="/flowers.jpg"
                             alt="Your Company"
                           />
                         </Link>
@@ -99,7 +99,7 @@ function Navbar({ children }) {
                               <span className="sr-only">Open user menu</span>
                               <img
                                 className="h-8 w-8 rounded-full"
-                                src={userInfo.imageUrl}
+                                src="/user.png"
                                 alt=""
                               />
                             </Menu.Button>
